@@ -450,6 +450,56 @@
     }
     .toast.show { display: block; }
 
+
+    .holder-focus-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.85rem;
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 720px) {
+      .holder-focus-grid { grid-template-columns: 1fr; }
+    }
+    .holder-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.05rem 1.15rem;
+      box-shadow: var(--shadow);
+    }
+    .holder-card .change-line {
+      font-family: var(--mono);
+      font-size: 0.92rem;
+      font-weight: 650;
+      margin: 0.35rem 0 0.5rem;
+    }
+    .holder-card .mini-series {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.65rem;
+    }
+    .holder-card .mini-pill {
+      font-size: 0.68rem;
+      padding: 0.2rem 0.45rem;
+      border-radius: 6px;
+      background: #101010;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+    .chip-range-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.65rem;
+      margin-bottom: 0.85rem;
+    }
+    .chip-range-row .range-label {
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
     /* —— 筹码区 / Volume Profile —— */
     .vp-grid {
       display: grid;
@@ -608,8 +658,8 @@
 
     <div class="grid-2">
       <section class="card">
-        <h2>相关标的速览</h2>
-        <p class="hint">同业 / 指数 ETF 当日变动（公开行情快照）</p>
+        <h2 id="peerTitle">美股七姐妹速览</h2>
+        <p class="hint" id="peerHint">Magnificent Seven 相关标的当日变动（公开行情快照；TSLA 为本页主体）</p>
         <div class="perf-list" id="peerList"></div>
       </section>
       <section class="card">
@@ -627,6 +677,15 @@
     <div class="vp-grid" id="chipZone">
       <section class="card">
         <h2>价格分桶成交量</h2>
+        <div class="chip-range-row">
+          <span class="range-label">交易日窗口</span>
+          <div class="range-tabs chip-range-tabs" role="tablist" aria-label="筹码交易日窗口">
+            <button type="button" data-chip-range="20">20 日</button>
+            <button type="button" data-chip-range="60">60 日</button>
+            <button type="button" data-chip-range="90" class="active">90 日</button>
+            <button type="button" data-chip-range="250">250 日</button>
+          </div>
+        </div>
         <p class="hint" id="vpHint">近约90个交易日成交量按价格分桶（近似筹码）</p>
         <div class="vp-chart-box">
           <canvas id="chipChart" aria-label="筹码分布图"></canvas>
@@ -656,6 +715,8 @@
       <h2>持仓关注清单</h2>
       <span>常见股价驱动因素 · 教育性整理，非投资建议</span>
     </div>
+    <p class="hint" id="holderFocusNote" style="margin:0 0 0.75rem;color:var(--muted);font-size:0.82rem"></p>
+    <div class="holder-focus-grid" id="holderFocusGrid"></div>
     <div class="chips" id="watchChips"></div>
 
     <footer class="note">
@@ -685,17 +746,30 @@
       peers: {
         SPY: { symbol: 'SPY', price: 778.57, changePct: 0.6, name: 'S&P 500 ETF' },
         QQQ: { symbol: 'QQQ', price: 751.27, changePct: 0.49, name: 'Nasdaq 100 ETF' },
-        RIVN: { symbol: 'RIVN', price: 13.96, changePct: -2.58, name: 'Rivian' },
-        LI: { symbol: 'LI', price: 11.54, changePct: 5.87, name: '理想汽车' },
-        NIO: { symbol: 'NIO', price: 3.58, changePct: 4.99, name: '蔚来' },
-        LCID: { symbol: 'LCID', price: 3.79, changePct: -0.79, name: 'Lucid' }
+        AAPL: { symbol: 'AAPL', price: 230, changePct: 0.4, name: 'Apple' },
+        MSFT: { symbol: 'MSFT', price: 430, changePct: 0.3, name: 'Microsoft' },
+        NVDA: { symbol: 'NVDA', price: 140, changePct: 1.2, name: 'NVIDIA' },
+        AMZN: { symbol: 'AMZN', price: 195, changePct: 0.5, name: 'Amazon' },
+        GOOGL: { symbol: 'GOOGL', price: 175, changePct: 0.2, name: 'Alphabet' },
+        META: { symbol: 'META', price: 580, changePct: -0.3, name: 'Meta' },
+        AVGO: { symbol: 'AVGO', price: 190, changePct: 0.8, name: 'Broadcom' }
+      },
+      peerSection: {
+        title: '美股七姐妹速览',
+        hint: 'Magnificent Seven 相关标的当日变动（示例）',
+        symbols: ['AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOGL', 'META', 'AVGO']
       },
       performance: {
         TSLA: { '1M': 5.26, '3M': -3.06, '1Y': -12.76 },
         SPY: { '1M': 2.74, '3M': 3.92, '1Y': 15.67 },
         QQQ: { '1M': 6.01, '3M': 5.55, '1Y': 22.87 },
-        RIVN: { '1M': -13.02, '3M': -19.35, '1Y': 6.32 },
-        LI: { '1M': -0.94, '3M': -5.25, '1Y': -53.17 }
+        AAPL: { '1M': 2.1, '3M': 4.2, '1Y': 12.0 },
+        MSFT: { '1M': 1.5, '3M': 3.0, '1Y': 10.0 },
+        NVDA: { '1M': 8.0, '3M': 15.0, '1Y': 40.0 },
+        AMZN: { '1M': 2.0, '3M': 5.0, '1Y': 18.0 },
+        GOOGL: { '1M': 1.8, '3M': 4.5, '1Y': 14.0 },
+        META: { '1M': 3.0, '3M': 6.0, '1Y': 22.0 },
+        AVGO: { '1M': 4.0, '3M': 8.0, '1Y': 30.0 }
       },
       history: { TSLA: [] },
       news: [
@@ -715,13 +789,44 @@
       watchlist: [
         { tag: '交付', desc: '季度交付量与指引' },
         { tag: '监管', desc: 'FSD/Robotaxi 许可与调查' },
+        { tag: 'FSD 用户', desc: '活跃订阅规模与环比（见下方卡片）' },
+        { tag: 'Cybercab', desc: '登记/运营数量变化（见下方卡片）' },
         { tag: '利率', desc: '美债收益率与成长股估值' },
-        { tag: '竞争', desc: '传统车企与新势力价格战' },
+        { tag: '七姐妹竞争', desc: '美股科技龙头相对强弱' },
         { tag: '马斯克相关', desc: '管理层动态与关联公司新闻' },
         { tag: '宏观风险偏好', desc: '纳指/科技股整体情绪' }
       ],
+      holderFocus: {
+        note: '以下两项为公开披露整理的可更新字段，非实时接口；标注「需核对」处请以官方披露为准。',
+        items: [
+          {
+            id: 'fsdUsers', title: 'FSD 用户变化', badge: '需核对 · 非实时',
+            metric: '活跃 FSD 订阅约 148 万（Q2 2026）',
+            change: '+20 万 vs 上季（Q1 2026：128 万）', changePct: 15.6,
+            detail: '口径含买断与月订、不含免费试用。示例数据。',
+            source: 'Tesla IR · 需核对', asOf: '2026-Q2', live: false,
+            series: [
+              { period: "Q2'25", valueM: 0.95 }, { period: "Q1'26", valueM: 1.28 }, { period: "Q2'26", valueM: 1.48 }
+            ]
+          },
+          {
+            id: 'cybercab', title: 'Cybercab 运营数量变化', badge: '需核对 · 示例/稀疏',
+            metric: '德州 TxDMV 登记 Cybercab 约 319 辆（2026-10-09）',
+            change: '+150 vs 月初约 169', changePct: null,
+            detail: '登记≠当日全部上路；公司未公布全球正式车队规模。早期数据稀疏。',
+            source: 'TxDMV / 媒体整理 · 需核对', asOf: '2026-10-09', live: false,
+            series: [
+              { period: '2026-08-31', value: 45 }, { period: '2026-10-初', value: 169 }, { period: '2026-10-09', value: 319 }
+            ]
+          }
+        ]
+      },
+      chipDefault: 90,
+      chipRanges: [20, 60, 90, 250],
       chips: {
         method: 'daily_ohlcv_uniform_bins',
+        windowBars: 90,
+        windowLabel: '90个交易日',
         methodNote: '近约90个交易日日线成交量按价格分桶（近似筹码）；示例数据。',
         disclaimer: '本图为日线成交量价格分布近似，非正式筹码分布，不构成投资建议。',
         barsUsed: 90,
@@ -771,6 +876,13 @@
     let chart = null;
     let chipChart = null;
     let currentRange = '3M';
+    let currentChipRange = 90;
+    const MAG7_PEER_ORDER = ['AAPL', 'MSFT', 'NVDA', 'AMZN', 'GOOGL', 'META', 'AVGO'];
+    const MAG7_NAMES = {
+      AAPL: 'Apple', MSFT: 'Microsoft', NVDA: 'NVIDIA', AMZN: 'Amazon',
+      GOOGL: 'Alphabet', META: 'Meta', AVGO: 'Broadcom',
+      TSLA: '特斯拉', SPY: '标普500 ETF', QQQ: '纳指100 ETF'
+    };
 
     function fmtMoney(n, digits = 2) {
       if (n == null || Number.isNaN(n)) return '—';
@@ -840,24 +952,19 @@
     }
 
     function renderPerf(range) {
-      const labels = {
-        TSLA: '特斯拉',
-        SPY: '标普500 ETF',
-        QQQ: '纳指100 ETF',
-        RIVN: 'Rivian',
-        LI: '理想汽车'
-      };
-      const order = ['TSLA', 'SPY', 'QQQ', 'RIVN', 'LI'];
+      const order = ['TSLA', ...MAG7_PEER_ORDER];
       const perf = DATA.performance || {};
-      const vals = order.map((s) => (perf[s] && perf[s][range] != null ? Math.abs(perf[s][range]) : 0));
+      const available = order.filter((s) => perf[s] && perf[s][range] != null);
+      const list = available.length ? available : order;
+      const vals = list.map((s) => (perf[s] && perf[s][range] != null ? Math.abs(perf[s][range]) : 0));
       const maxAbs = Math.max(8, ...vals);
-      $('#perfHint').textContent = `近 ${range} 累计涨跌（相对区间起点收盘）`;
-      $('#perfList').innerHTML = order.map((s) => {
+      $('#perfHint').textContent = `近 ${range} 累计涨跌 · TSLA vs 七姐妹相关（相对区间起点收盘）`;
+      $('#perfList').innerHTML = list.map((s) => {
         const v = perf[s] ? perf[s][range] : null;
         const w = v == null ? 0 : Math.min(100, (Math.abs(v) / maxAbs) * 100);
         const c = cls(v);
         return `<div class="perf-row">
-          <div><div class="sym">${s}</div><div class="name">${labels[s] || ''}</div></div>
+          <div><div class="sym">${s}</div><div class="name">${MAG7_NAMES[s] || ''}</div></div>
           <div class="bar-track"><div class="bar-fill ${c}" style="width:${w}%"></div></div>
           <div class="perf-val ${c}">${fmtPct(v)}</div>
         </div>`;
@@ -866,17 +973,19 @@
 
     function renderPeers() {
       const peers = DATA.peers || {};
-      const order = ['SPY', 'QQQ', 'RIVN', 'LI', 'NIO', 'LCID'];
-      const short = { SPY: '标普500', QQQ: '纳指100', RIVN: 'Rivian', LI: '理想', NIO: '蔚来', LCID: 'Lucid' };
+      const sec = DATA.peerSection || {};
+      if (sec.title) $('#peerTitle').textContent = sec.title;
+      if (sec.hint) $('#peerHint').textContent = sec.hint;
+      const order = (sec.symbols && sec.symbols.length) ? sec.symbols : MAG7_PEER_ORDER;
       $('#peerList').innerHTML = order.filter((s) => peers[s]).map((s) => {
         const p = peers[s];
         const c = cls(p.changePct);
         return `<div class="perf-row">
-          <div><div class="sym">${s}</div><div class="name">${short[s] || p.name || ''}</div></div>
+          <div><div class="sym">${s}</div><div class="name">${MAG7_NAMES[s] || p.name || ''}</div></div>
           <div style="color:var(--muted);font-size:0.85rem;font-variant-numeric:tabular-nums">$${fmtMoney(p.price)}</div>
           <div class="perf-val ${c}">${fmtPct(p.changePct)}</div>
         </div>`;
-      }).join('');
+      }).join('') || '<div class="hint">暂无七姐妹相关快照</div>';
 
       const q = peers.QQQ, sp = peers.SPY;
       if (q) {
@@ -915,6 +1024,35 @@
       $('#watchChips').innerHTML = (DATA.watchlist || []).map((w) => `
         <div class="chip"><div class="tag">${escapeHtml(w.tag)}</div><div class="desc">${escapeHtml(w.desc)}</div></div>
       `).join('');
+    }
+
+    function renderHolderFocus() {
+      const hf = DATA.holderFocus || { items: [] };
+      const noteEl = $('#holderFocusNote');
+      const grid = $('#holderFocusGrid');
+      if (noteEl) noteEl.textContent = hf.note || 'FSD / Cybercab 为可更新整理字段，非实时行情。';
+      const items = hf.items || [];
+      if (!grid) return;
+      if (!items.length) {
+        grid.innerHTML = '';
+        return;
+      }
+      grid.innerHTML = items.map((it) => {
+        const series = (it.series || []).map((s) => {
+          const val = s.valueM != null ? s.valueM + 'M' : (s.value != null ? s.value : '—');
+          return `<span class="mini-pill">${escapeHtml(s.period || '')}: ${escapeHtml(String(val))}</span>`;
+        }).join('');
+        const chgCls = cls(it.changePct);
+        return `<article class="holder-card">
+          <div class="badge">${escapeHtml(it.badge || '需核对')}</div>
+          <h3 style="margin:0 0 0.35rem;font-size:0.98rem">${escapeHtml(it.title || '')}</h3>
+          <div class="metric" style="font-size:0.9rem;color:#ddd">${escapeHtml(it.metric || '')}</div>
+          <div class="change-line ${chgCls}">${escapeHtml(it.change || '')}</div>
+          <div class="detail" style="font-size:0.8rem;color:var(--muted)">${escapeHtml(it.detail || '')}</div>
+          <div class="mini-series">${series}</div>
+          <div class="src" style="margin-top:0.65rem;font-size:0.7rem;color:var(--dim)">${escapeHtml(it.source || '')} · 截至 ${escapeHtml(it.asOf || '—')}${it.live ? '' : ' · 非实时'}</div>
+        </article>`;
+      }).join('');
     }
 
     function escapeHtml(s) {
@@ -1000,11 +1138,24 @@
     }
 
 
-    function renderChips() {
-      const c = DATA.chips;
+    function getChipData(range) {
+      const key = String(range);
+      if (DATA.chipsByRange && DATA.chipsByRange[key]) return DATA.chipsByRange[key];
+      if (DATA.chips && (DATA.chips.windowBars == null || Number(DATA.chips.windowBars) === Number(range))) {
+        return DATA.chips;
+      }
+      return DATA.chips || null;
+    }
+
+    function renderChips(rangeOpt) {
+      if (rangeOpt != null) currentChipRange = Number(rangeOpt);
+      const c = getChipData(currentChipRange);
       const statsEl = $('#vpStats');
       const noteEl = $('#vpNote');
       const hintEl = $('#vpHint');
+      document.querySelectorAll('.chip-range-tabs button').forEach((b) => {
+        b.classList.toggle('active', Number(b.dataset.chipRange) === Number(currentChipRange));
+      });
       if (!c || !c.buckets || !c.buckets.length) {
         if (statsEl) statsEl.innerHTML = '<div class="vp-stat"><div class="s">暂无筹码数据。请运行 refresh_data.py 生成。</div></div>';
         if (noteEl) noteEl.textContent = '缺少 chips 字段：本页以日线 Volume Profile 近似筹码，需 OHLCV 分桶结果。';
@@ -1151,11 +1302,16 @@
     }
 
     function bindTabs() {
-      document.querySelectorAll('.range-tabs button').forEach((btn) => {
+      document.querySelectorAll('.range-tabs:not(.chip-range-tabs) button').forEach((btn) => {
         btn.addEventListener('click', () => {
-          document.querySelectorAll('.range-tabs button').forEach((b) => b.classList.remove('active'));
+          document.querySelectorAll('.range-tabs:not(.chip-range-tabs) button').forEach((b) => b.classList.remove('active'));
           btn.classList.add('active');
           renderChart(btn.dataset.range);
+        });
+      });
+      document.querySelectorAll('.chip-range-tabs button').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          renderChips(Number(btn.dataset.chipRange));
         });
       });
     }
@@ -1183,12 +1339,14 @@
         }
       }
       applyMeta(DATA, mode);
+      currentChipRange = Number(DATA.chipDefault || 90);
       renderKpi(DATA.kpi || {});
       renderPeers();
       renderNews();
       renderFunds();
+      renderHolderFocus();
       renderWatch();
-      renderChips();
+      renderChips(currentChipRange);
       bindTabs();
       renderChart(currentRange);
     }
