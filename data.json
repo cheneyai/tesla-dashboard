@@ -1,6 +1,6 @@
 {
   "source": "Nasdaq.com 公开接口快照",
-  "fetchedAt": "2026-10-10 16:37:53 CST",
+  "fetchedAt": "2026-10-12 08:25:52 CST",
   "asOfNote": "美股最近交易日收盘（周末/休市时为上一个交易日）",
   "live": true,
   "kpi": {
@@ -11779,44 +11779,44 @@
   },
   "news": [
     {
-      "title": "Friday's ETF with Unusual Volume: FTXR  ",
+      "title": "Forget Chasing Volume. Here's the Most Active Stock I'd Actually Hold for 5 Years.",
+      "time": "1 hour ago",
+      "url": "/articles/forget-chasing-volume-heres-most-active-stock-id-actually-hold-5-years",
+      "source": "The Motley Fool",
+      "demo": false
+    },
+    {
+      "title": "Forget the Recent Delivery Beat: Here's the Key Number That Will Decide Investors' Reaction to Tesla's Earnings",
+      "time": "3 hours ago",
+      "url": "/articles/forget-recent-delivery-beat-heres-key-number-will-decide-investors-reaction-teslas",
+      "source": "The Motley Fool",
+      "demo": false
+    },
+    {
+      "title": "Symbotic Has a $22.5 Billion Backlog. Here's Why It Could Be the Best Robotics Stock Nobody Talks About.",
+      "time": "13 hours ago",
+      "url": "/articles/symbotic-has-225-billion-backlog-heres-why-it-could-be-best-robotics-stock-nobody-talks",
+      "source": "The Motley Fool",
+      "demo": false
+    },
+    {
+      "title": "Alphabet Is the Robotaxi Stock to Buy as Waymo Chases 1 Million Rides a Week",
       "time": "14 hours ago",
-      "url": "/articles/fridays-etf-unusual-volume-ftxr",
-      "source": "BNK Invest",
+      "url": "/articles/alphabet-robotaxi-stock-buy-waymo-chases-1-million-rides-week",
+      "source": "The Motley Fool",
       "demo": false
     },
     {
-      "title": "Record Profits at Samsung and TSMC Say the AI Trade is Intact",
-      "time": "20 hours ago",
-      "url": "/articles/record-profits-samsung-and-tsmc-say-ai-trade-intact",
-      "source": "Zacks",
-      "demo": false
-    },
-    {
-      "title": "Is Slovakia's FSD Nod the Next Step in Tesla's European Expansion? ",
-      "time": "21 hours ago",
-      "url": "/articles/slovakias-fsd-nod-next-step-teslas-european-expansion",
-      "source": "Zacks",
-      "demo": false
-    },
-    {
-      "title": "Can Tesla's IMC Deal Accelerate Semi Growth and Zero-Emission Freight? ",
-      "time": "21 hours ago",
-      "url": "/articles/can-teslas-imc-deal-accelerate-semi-growth-and-zero-emission-freight",
-      "source": "Zacks",
-      "demo": false
-    },
-    {
-      "title": "Guide to Magnificent Seven ETF investing",
-      "time": "21 hours ago",
-      "url": "/articles/guide-magnificent-seven-etf-investing",
-      "source": "Zacks",
-      "demo": false
-    },
-    {
-      "title": "SpaceX Is Worth About $800 Billion More Than Tesla on Less Than a Quarter of Its Sales",
+      "title": "Cathie Wood Just Cut Her SpaceX Position. Is It Time to Sell?",
       "time": "1 day ago",
-      "url": "/articles/spacex-worth-about-800-billion-more-tesla-less-quarter-its-sales",
+      "url": "/articles/cathie-wood-just-cut-her-spacex-position-it-time-sell",
+      "source": "The Motley Fool",
+      "demo": false
+    },
+    {
+      "title": "Tesla Beat Delivery Estimates by 25,000 Vehicles. Here's Why the Stock Still Hasn't Broken Out.",
+      "time": "1 day ago",
+      "url": "/articles/tesla-beat-delivery-estimates-25000-vehicles-heres-why-stock-still-hasnt-broken-out",
       "source": "The Motley Fool",
       "demo": false
     }
