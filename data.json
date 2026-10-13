@@ -1,123 +1,123 @@
 {
   "source": "Nasdaq.com 公开接口快照",
-  "fetchedAt": "2026-10-12 08:25:52 CST",
+  "fetchedAt": "2026-10-13 08:31:59 CST",
   "asOfNote": "美股最近交易日收盘（周末/休市时为上一个交易日）",
   "live": true,
   "kpi": {
-    "price": 382.7,
-    "change": 7.7,
-    "changePct": 2.05,
-    "volume": "38,953,094",
-    "avgVolume": "36,172,625",
-    "marketCap": "1,511,491,787,684",
-    "previousClose": 375.0,
+    "price": 376.76,
+    "change": -1.27,
+    "changePct": -0.34,
+    "volume": "20,229,446.568731",
+    "avgVolume": "36,193,857",
+    "marketCap": "1,493,047,401,354",
+    "previousClose": 382.7,
     "week52High": 498.83,
     "week52Low": 297.38,
     "oneYrTarget": 405.0,
     "exchange": "NASDAQ-GS",
-    "nasdaqTimestamp": "Oct 8, 2026",
-    "marketStatus": "Closed",
+    "nasdaqTimestamp": "Oct 12, 2026 7:49 PM ET",
+    "marketStatus": "After-Hours",
     "asOfTradingDay": "2026-10-09"
   },
   "peers": {
     "SPY": {
       "symbol": "SPY",
       "name": "State Street SPDR S&P 500 ETF Trust",
-      "price": 778.57,
-      "change": 4.64,
-      "changePct": 0.6,
-      "volume": "22,625,607",
-      "timestamp": "Oct 8, 2026",
-      "marketStatus": "Closed",
-      "delta": "up"
+      "price": 777.26,
+      "change": -0.81,
+      "changePct": -0.1,
+      "volume": "18,683,775.179440",
+      "timestamp": "Oct 12, 2026 7:59 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "down"
     },
     "QQQ": {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 751.27,
-      "change": 3.69,
-      "changePct": 0.49,
-      "volume": "21,162,689",
-      "timestamp": "Oct 8, 2026",
-      "marketStatus": "Closed",
-      "delta": "up"
+      "price": 743.87,
+      "change": -2.17,
+      "changePct": -0.29,
+      "volume": "25,141,268.041334",
+      "timestamp": "Oct 12, 2026 7:58 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "down"
     },
     "AAPL": {
       "symbol": "AAPL",
       "name": "Apple Inc. Common Stock",
-      "price": 336.64,
-      "change": -3.78,
-      "changePct": -1.11,
-      "volume": "37,881,393",
-      "timestamp": "Oct 8, 2026",
-      "marketStatus": "Closed",
-      "delta": "down"
+      "price": 341.28,
+      "change": 0.31,
+      "changePct": 0.09,
+      "volume": "25,895,213.443080",
+      "timestamp": "Oct 12, 2026 7:58 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "up"
     },
     "MSFT": {
       "symbol": "MSFT",
       "name": "Microsoft Corporation Common Stock",
-      "price": 535.07,
-      "change": 12.46,
-      "changePct": 2.38,
-      "volume": "18,500,773",
-      "timestamp": "Oct 8, 2026",
-      "marketStatus": "Closed",
-      "delta": "up"
+      "price": 540.7348,
+      "change": -0.4152,
+      "changePct": -0.08,
+      "volume": "18,313,575.460629",
+      "timestamp": "Oct 12, 2026 7:55 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "down"
     },
     "NVDA": {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation Common Stock",
-      "price": 229.28,
-      "change": -1.2,
-      "changePct": -0.52,
-      "volume": "84,647,475",
-      "timestamp": "Oct 8, 2026",
-      "marketStatus": "Closed",
+      "price": 224.6436,
+      "change": -1.6764,
+      "changePct": -0.74,
+      "volume": "70,629,347.092289",
+      "timestamp": "Oct 12, 2026 7:56 PM ET",
+      "marketStatus": "After-Hours",
       "delta": "down"
     },
     "AMZN": {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc. Common Stock",
-      "price": 262.43,
-      "change": 8.37,
-      "changePct": 3.29,
-      "volume": "34,770,127",
-      "timestamp": "Oct 8, 2026",
-      "marketStatus": "Closed",
+      "price": 259.6,
+      "change": 0.07,
+      "changePct": 0.03,
+      "volume": "26,574,028.234245",
+      "timestamp": "Oct 12, 2026 7:56 PM ET",
+      "marketStatus": "After-Hours",
       "delta": "up"
     },
     "GOOGL": {
       "symbol": "GOOGL",
       "name": "Alphabet Inc. Class A Common Stock",
-      "price": 351.66,
-      "change": 3.37,
-      "changePct": 0.97,
-      "volume": "17,281,660",
-      "timestamp": "Oct 8, 2026",
-      "marketStatus": "Closed",
+      "price": 353.2921,
+      "change": 0.5721,
+      "changePct": 0.16,
+      "volume": "19,064,491.985022",
+      "timestamp": "Oct 12, 2026 7:40 PM ET",
+      "marketStatus": "After-Hours",
       "delta": "up"
     },
     "META": {
       "symbol": "META",
       "name": "Meta Platforms, Inc. Class A Common Stock",
-      "price": 718.67,
-      "change": -2.22,
-      "changePct": -0.31,
-      "volume": "12,620,426",
-      "timestamp": "Oct 8, 2026",
-      "marketStatus": "Closed",
+      "price": 741.4999,
+      "change": -1.4601,
+      "changePct": -0.2,
+      "volume": "24,877,143.190255",
+      "timestamp": "Oct 12, 2026 7:56 PM ET",
+      "marketStatus": "After-Hours",
       "delta": "down"
     },
     "AVGO": {
       "symbol": "AVGO",
       "name": "Broadcom Inc. Common Stock",
-      "price": 361.54,
-      "change": 1.4,
-      "changePct": 0.39,
-      "volume": "16,844,043",
-      "timestamp": "Oct 8, 2026",
-      "marketStatus": "Closed",
-      "delta": "up"
+      "price": 353.562,
+      "change": -1.168,
+      "changePct": -0.33,
+      "volume": "16,328,721.266833",
+      "timestamp": "Oct 12, 2026 7:50 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "down"
     }
   },
   "peerSection": {
@@ -197,10 +197,6 @@
   },
   "history": {
     "TSLA": [
-      {
-        "date": "2025-08-18",
-        "close": 335.16
-      },
       {
         "date": "2025-08-19",
         "close": 329.31
@@ -1356,10 +1352,6 @@
     ],
     "SPY": [
       {
-        "date": "2025-08-18",
-        "close": 643.3
-      },
-      {
         "date": "2025-08-19",
         "close": 639.81
       },
@@ -2513,10 +2505,6 @@
       }
     ],
     "QQQ": [
-      {
-        "date": "2025-08-18",
-        "close": 577.11
-      },
       {
         "date": "2025-08-19",
         "close": 569.28
@@ -3672,10 +3660,6 @@
     ],
     "AAPL": [
       {
-        "date": "2025-08-18",
-        "close": 230.89
-      },
-      {
         "date": "2025-08-19",
         "close": 230.56
       },
@@ -4829,10 +4813,6 @@
       }
     ],
     "MSFT": [
-      {
-        "date": "2025-08-18",
-        "close": 517.1
-      },
       {
         "date": "2025-08-19",
         "close": 509.77
@@ -5988,10 +5968,6 @@
     ],
     "NVDA": [
       {
-        "date": "2025-08-18",
-        "close": 182.01
-      },
-      {
         "date": "2025-08-19",
         "close": 175.64
       },
@@ -7145,10 +7121,6 @@
       }
     ],
     "AMZN": [
-      {
-        "date": "2025-08-18",
-        "close": 231.49
-      },
       {
         "date": "2025-08-19",
         "close": 228.01
@@ -8304,10 +8276,6 @@
     ],
     "GOOGL": [
       {
-        "date": "2025-08-18",
-        "close": 203.5
-      },
-      {
         "date": "2025-08-19",
         "close": 201.57
       },
@@ -9462,10 +9430,6 @@
     ],
     "META": [
       {
-        "date": "2025-08-18",
-        "close": 767.37
-      },
-      {
         "date": "2025-08-19",
         "close": 751.48
       },
@@ -10619,10 +10583,6 @@
       }
     ],
     "AVGO": [
-      {
-        "date": "2025-08-18",
-        "close": 305.76
-      },
       {
         "date": "2025-08-19",
         "close": 294.91
@@ -11779,44 +11739,44 @@
   },
   "news": [
     {
-      "title": "Forget Chasing Volume. Here's the Most Active Stock I'd Actually Hold for 5 Years.",
-      "time": "1 hour ago",
-      "url": "/articles/forget-chasing-volume-heres-most-active-stock-id-actually-hold-5-years",
-      "source": "The Motley Fool",
-      "demo": false
-    },
-    {
-      "title": "Forget the Recent Delivery Beat: Here's the Key Number That Will Decide Investors' Reaction to Tesla's Earnings",
+      "title": "Tesla (TSLA) Declines More Than Market: Some Information for Investors",
       "time": "3 hours ago",
-      "url": "/articles/forget-recent-delivery-beat-heres-key-number-will-decide-investors-reaction-teslas",
-      "source": "The Motley Fool",
+      "url": "/articles/tesla-tsla-declines-more-market-some-information-investors",
+      "source": "Zacks",
       "demo": false
     },
     {
-      "title": "Symbotic Has a $22.5 Billion Backlog. Here's Why It Could Be the Best Robotics Stock Nobody Talks About.",
-      "time": "13 hours ago",
-      "url": "/articles/symbotic-has-225-billion-backlog-heres-why-it-could-be-best-robotics-stock-nobody-talks",
-      "source": "The Motley Fool",
+      "title": "TSLL, SUIL: Big ETF Outflows  ",
+      "time": "8 hours ago",
+      "url": "/articles/tsll-suil-big-etf-outflows",
+      "source": "BNK Invest",
       "demo": false
     },
     {
-      "title": "Alphabet Is the Robotaxi Stock to Buy as Waymo Chases 1 Million Rides a Week",
-      "time": "14 hours ago",
-      "url": "/articles/alphabet-robotaxi-stock-buy-waymo-chases-1-million-rides-week",
-      "source": "The Motley Fool",
+      "title": "October 26th Options Now Available For Tesla ",
+      "time": "9 hours ago",
+      "url": "/articles/october-26th-options-now-available-tesla",
+      "source": "BNK Invest",
       "demo": false
     },
     {
-      "title": "Cathie Wood Just Cut Her SpaceX Position. Is It Time to Sell?",
-      "time": "1 day ago",
-      "url": "/articles/cathie-wood-just-cut-her-spacex-position-it-time-sell",
-      "source": "The Motley Fool",
+      "title": "Should You Buy, Hold or Sell TSLA Stock After Its Cybercab Fleet Jump?",
+      "time": "11 hours ago",
+      "url": "/articles/should-you-buy-hold-or-sell-tsla-stock-after-its-cybercab-fleet-jump",
+      "source": "Zacks",
       "demo": false
     },
     {
-      "title": "Tesla Beat Delivery Estimates by 25,000 Vehicles. Here's Why the Stock Still Hasn't Broken Out.",
-      "time": "1 day ago",
-      "url": "/articles/tesla-beat-delivery-estimates-25000-vehicles-heres-why-stock-still-hasnt-broken-out",
+      "title": "Can Tesla Sustain China EV Sales Growth Amid Competition? ",
+      "time": "12 hours ago",
+      "url": "/articles/can-tesla-sustain-china-ev-sales-growth-amid-competition",
+      "source": "Zacks",
+      "demo": false
+    },
+    {
+      "title": "AI Bubble or Not, Warren Buffett Would Buy This Vanguard Index Fund",
+      "time": "12 hours ago",
+      "url": "/articles/ai-bubble-or-not-warren-buffett-would-buy-vanguard-index-fund",
       "source": "The Motley Fool",
       "demo": false
     }
@@ -12002,7 +11962,7 @@
         "isPoc": false
       }
     ],
-    "currentPrice": 382.7,
+    "currentPrice": 376.76,
     "priceVsChips": "inside",
     "priceVsChipsLabel": "现价位于主筹码区内",
     "totalVolume": 3639315720,
@@ -12219,7 +12179,7 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 382.7,
+      "currentPrice": 376.76,
       "priceVsChips": "inside",
       "priceVsChipsLabel": "现价位于主筹码区内",
       "totalVolume": 716837940,
@@ -12435,7 +12395,7 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 382.7,
+      "currentPrice": 376.76,
       "priceVsChips": "inside",
       "priceVsChipsLabel": "现价位于主筹码区内",
       "totalVolume": 2290264210,
@@ -12651,7 +12611,7 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 382.7,
+      "currentPrice": 376.76,
       "priceVsChips": "inside",
       "priceVsChipsLabel": "现价位于主筹码区内",
       "totalVolume": 3639315720,
@@ -12867,7 +12827,7 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 382.7,
+      "currentPrice": 376.76,
       "priceVsChips": "inside",
       "priceVsChipsLabel": "现价位于主筹码区内",
       "totalVolume": 14438787910,
