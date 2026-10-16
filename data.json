@@ -1,21 +1,21 @@
 {
   "source": "Nasdaq.com 公开接口快照",
-  "fetchedAt": "2026-10-16 07:52:19 CST",
+  "fetchedAt": "2026-10-16 08:29:54 CST",
   "asOfNote": "美股最近交易日收盘（周末/休市时为上一个交易日）",
   "live": true,
   "kpi": {
-    "price": 362.15,
-    "change": -0.29,
-    "changePct": -0.08,
-    "volume": "26,713,451.333658",
+    "price": 362.1,
+    "change": -0.34,
+    "changePct": -0.09,
+    "volume": "26,725,639.131190",
     "avgVolume": "35,435,276",
-    "marketCap": "1,431,473,957,481",
-    "previousClose": 367.16,
+    "marketCap": "1,450,115,821,181",
+    "previousClose": 375.23,
     "week52High": 498.83,
     "week52Low": 297.38,
     "oneYrTarget": 400.0,
     "exchange": "NASDAQ-GS",
-    "nasdaqTimestamp": "Oct 15, 2026 7:52 PM ET",
+    "nasdaqTimestamp": "Oct 15, 2026 7:59 PM ET",
     "marketStatus": "After-Hours",
     "asOfTradingDay": "2026-10-14"
   },
@@ -23,99 +23,99 @@
     "SPY": {
       "symbol": "SPY",
       "name": "State Street SPDR S&P 500 ETF Trust",
-      "price": 770.37,
-      "change": -1.4,
+      "price": 770.3837,
+      "change": -1.3863,
       "changePct": -0.18,
-      "volume": "43,253,967.522613",
-      "timestamp": "Oct 15, 2026 7:52 PM ET",
+      "volume": "43,259,659.645799",
+      "timestamp": "Oct 15, 2026 7:58 PM ET",
       "marketStatus": "After-Hours",
       "delta": "down"
     },
     "QQQ": {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 724.3299,
-      "change": -3.6701,
-      "changePct": -0.5,
-      "volume": "49,789,514.458494",
-      "timestamp": "Oct 15, 2026 7:51 PM ET",
+      "price": 724.5991,
+      "change": -3.4009,
+      "changePct": -0.47,
+      "volume": "49,794,672.458494",
+      "timestamp": "Oct 15, 2026 7:53 PM ET",
       "marketStatus": "After-Hours",
       "delta": "down"
     },
     "AAPL": {
       "symbol": "AAPL",
       "name": "Apple Inc. Common Stock",
-      "price": 340.71,
-      "change": -1.29,
-      "changePct": -0.38,
-      "volume": "39,763,396.068447",
-      "timestamp": "Oct 15, 2026 7:52 PM ET",
+      "price": 340.6637,
+      "change": -1.3363,
+      "changePct": -0.39,
+      "volume": "39,766,809.151435",
+      "timestamp": "Oct 15, 2026 7:59 PM ET",
       "marketStatus": "After-Hours",
       "delta": "down"
     },
     "MSFT": {
       "symbol": "MSFT",
       "name": "Microsoft Corporation Common Stock",
-      "price": 536.5772,
-      "change": -2.8628,
-      "changePct": -0.53,
-      "volume": "24,150,086.996031",
-      "timestamp": "Oct 15, 2026 7:52 PM ET",
+      "price": 536.988,
+      "change": -2.452,
+      "changePct": -0.45,
+      "volume": "24,150,153.117181",
+      "timestamp": "Oct 15, 2026 7:55 PM ET",
       "marketStatus": "After-Hours",
       "delta": "down"
     },
     "NVDA": {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation Common Stock",
-      "price": 216.7761,
-      "change": -0.4539,
-      "changePct": -0.21,
-      "volume": "127,065,824.644858",
-      "timestamp": "Oct 15, 2026 7:52 PM ET",
+      "price": 216.71,
+      "change": -0.52,
+      "changePct": -0.24,
+      "volume": "127,084,538.458293",
+      "timestamp": "Oct 15, 2026 7:59 PM ET",
       "marketStatus": "After-Hours",
       "delta": "down"
     },
     "AMZN": {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc. Common Stock",
-      "price": 253.32,
-      "change": -1.44,
+      "price": 253.3164,
+      "change": -1.4436,
       "changePct": -0.57,
-      "volume": "34,556,117.462803",
-      "timestamp": "Oct 15, 2026 7:52 PM ET",
+      "volume": "34,562,855.709057",
+      "timestamp": "Oct 15, 2026 7:59 PM ET",
       "marketStatus": "After-Hours",
       "delta": "down"
     },
     "GOOGL": {
       "symbol": "GOOGL",
       "name": "Alphabet Inc. Class A Common Stock",
-      "price": 348.1412,
-      "change": -1.0788,
-      "changePct": -0.31,
-      "volume": "21,326,645.267260",
-      "timestamp": "Oct 15, 2026 7:52 PM ET",
+      "price": 347.883,
+      "change": -1.337,
+      "changePct": -0.38,
+      "volume": "21,328,134.093014",
+      "timestamp": "Oct 15, 2026 7:59 PM ET",
       "marketStatus": "After-Hours",
       "delta": "down"
     },
     "META": {
       "symbol": "META",
       "name": "Meta Platforms, Inc. Class A Common Stock",
-      "price": 731.5,
-      "change": -5.22,
-      "changePct": -0.71,
-      "volume": "16,890,030.394933",
-      "timestamp": "Oct 15, 2026 7:52 PM ET",
+      "price": 732.92,
+      "change": -3.8,
+      "changePct": -0.52,
+      "volume": "16,891,319.507111",
+      "timestamp": "Oct 15, 2026 7:59 PM ET",
       "marketStatus": "After-Hours",
       "delta": "down"
     },
     "AVGO": {
       "symbol": "AVGO",
       "name": "Broadcom Inc. Common Stock",
-      "price": 342.0,
-      "change": -2.33,
-      "changePct": -0.68,
-      "volume": "28,453,866.715302",
-      "timestamp": "Oct 15, 2026 7:52 PM ET",
+      "price": 342.085,
+      "change": -2.245,
+      "changePct": -0.65,
+      "volume": "28,454,121.241776",
+      "timestamp": "Oct 15, 2026 7:55 PM ET",
       "marketStatus": "After-Hours",
       "delta": "down"
     }
@@ -11740,35 +11740,35 @@
   "news": [
     {
       "title": "Here Are the 3 Magnificent Seven Stocks I'd Buy Today",
-      "time": "1 hour ago",
+      "time": "2 hours ago",
       "url": "/articles/here-are-3-magnificent-seven-stocks-id-buy-today",
       "source": "The Motley Fool",
       "demo": false
     },
     {
       "title": "Tesla's Cybercab Robotaxi Fleet Jumped Eightfold in a Month to More Than 300 Vehicles in Austin, With Dallas Up Next. Is Elon Musk's Robotaxi Bet Finally Scaling?",
-      "time": "4 hours ago",
+      "time": "5 hours ago",
       "url": "/articles/teslas-cybercab-robotaxi-fleet-jumped-eightfold-month-more-300-vehicles-austin-dallas-next",
       "source": "The Motley Fool",
       "demo": false
     },
     {
       "title": "Stocks Sharply Lower on Inflation Woes and Slumping Chipmakers",
-      "time": "5 hours ago",
+      "time": "6 hours ago",
       "url": "/articles/stocks-sharply-lower-inflation-woes-and-slumping-chipmakers",
       "source": "Barchart",
       "demo": false
     },
     {
       "title": "TSLA's Megapack Order Highlights AI Demand and Future Growth Potential ",
-      "time": "12 hours ago",
+      "time": "13 hours ago",
       "url": "/articles/tslas-megapack-order-highlights-ai-demand-and-future-growth-potential",
       "source": "Zacks",
       "demo": false
     },
     {
       "title": "The 1 Thing I'd Want Elon Musk to Answer on Tesla's Oct. 21 Call",
-      "time": "15 hours ago",
+      "time": "16 hours ago",
       "url": "/articles/1-thing-id-want-elon-musk-answer-teslas-oct-21-call",
       "source": "The Motley Fool",
       "demo": false
@@ -11962,7 +11962,7 @@
         "isPoc": false
       }
     ],
-    "currentPrice": 362.15,
+    "currentPrice": 362.1,
     "priceVsChips": "inside",
     "priceVsChipsLabel": "现价位于主筹码区内",
     "totalVolume": 3565710300,
@@ -12179,7 +12179,7 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 362.15,
+      "currentPrice": 362.1,
       "priceVsChips": "below",
       "priceVsChipsLabel": "现价位于主筹码区下方",
       "totalVolume": 691504390,
@@ -12395,7 +12395,7 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 362.15,
+      "currentPrice": 362.1,
       "priceVsChips": "inside",
       "priceVsChipsLabel": "现价位于主筹码区内",
       "totalVolume": 2261871520,
@@ -12611,7 +12611,7 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 362.15,
+      "currentPrice": 362.1,
       "priceVsChips": "inside",
       "priceVsChipsLabel": "现价位于主筹码区内",
       "totalVolume": 3565710300,
@@ -12827,7 +12827,7 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 362.15,
+      "currentPrice": 362.1,
       "priceVsChips": "below",
       "priceVsChipsLabel": "现价位于主筹码区下方",
       "totalVolume": 14284646240,
