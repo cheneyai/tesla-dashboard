@@ -1,6 +1,6 @@
 {
   "source": "Nasdaq.com 公开接口快照",
-  "fetchedAt": "2026-10-18 08:00:19 CST",
+  "fetchedAt": "2026-10-19 08:29:33 CST",
   "asOfNote": "美股最近交易日收盘（周末/休市时为上一个交易日）",
   "live": true,
   "kpi": {
@@ -11780,44 +11780,44 @@
   "news": [
     {
       "title": "Stock Indexes Finish Sharply Lower as Tech Stocks Plunge",
-      "time": "3 hours ago",
+      "time": "25 minutes ago",
       "url": "/articles/stock-indexes-finish-sharply-lower-tech-stocks-plunge",
       "source": "Barchart",
       "demo": false
     },
     {
+      "title": "Breakfast News: The Sunday Edition",
+      "time": "12 hours ago",
+      "url": "/articles/breakfast-news-sunday-edition-4",
+      "source": "The Motley Fool",
+      "demo": false
+    },
+    {
+      "title": "Elon Musk Says Optimus Is Tesla's Most Important Product. These 3 Suppliers Get Paid Before Tesla Does.",
+      "time": "17 hours ago",
+      "url": "/articles/elon-musk-says-optimus-teslas-most-important-product-these-3-suppliers-get-paid-tesla-does",
+      "source": "The Motley Fool",
+      "demo": false
+    },
+    {
+      "title": "MarketBeat Week in Review – 10/12 - 10/16",
+      "time": "1 day ago",
+      "url": "/articles/marketbeat-week-review-10-12-10-16",
+      "source": "MarketBeat",
+      "demo": false
+    },
+    {
       "title": "History Says Tesla Stock Swings Hard on Earnings. It Has Moved 8% or More After 10 of Its Last 15 Reports.",
-      "time": "15 hours ago",
+      "time": "1 day ago",
       "url": "/articles/history-says-tesla-stock-swings-hard-earnings-it-has-moved-8-or-more-after-10-its-last-15",
       "source": "The Motley Fool",
       "demo": false
     },
     {
       "title": "BYD or Tesla: Which Is a Better Stock?",
-      "time": "17 hours ago",
+      "time": "1 day ago",
       "url": "/articles/byd-or-tesla-which-better-stock",
       "source": "The Motley Fool",
-      "demo": false
-    },
-    {
-      "title": "Missed Out On Micron and Sandisk? Make Sure You Don't Miss Out On This Memory Stock.",
-      "time": "18 hours ago",
-      "url": "/articles/missed-out-micron-and-sandisk-make-sure-you-dont-miss-out-memory-stock",
-      "source": "The Motley Fool",
-      "demo": false
-    },
-    {
-      "title": "Tesla’s Flying Roadster Has Wall Street Talking About SpaceX, Not Cars",
-      "time": "22 hours ago",
-      "url": "/articles/teslas-flying-roadster-has-wall-street-talking-about-spacex-not-cars",
-      "source": "The Motley Fool",
-      "demo": false
-    },
-    {
-      "title": "Tesla Showcases Roadster With SpaceX-Developed Thrusters In Dramatic Aerial Demonstration ",
-      "time": "1 day ago",
-      "url": "/articles/tesla-showcases-roadster-spacex-developed-thrusters-dramatic-aerial-demonstration",
-      "source": "RTTNews",
       "demo": false
     }
   ],
