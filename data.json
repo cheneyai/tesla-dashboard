@@ -1,123 +1,123 @@
 {
   "source": "Nasdaq.com 公开接口快照",
-  "fetchedAt": "2026-10-19 08:29:33 CST",
+  "fetchedAt": "2026-10-20 08:25:10 CST",
   "asOfNote": "美股最近交易日收盘（周末/休市时为上一个交易日）",
   "live": true,
   "kpi": {
-    "price": 354.72,
-    "change": -7.72,
-    "changePct": -2.13,
-    "volume": "62,069,044",
-    "avgVolume": "35,406,859",
+    "price": 368.77,
+    "change": 0.71,
+    "changePct": 0.19,
+    "volume": "38,799,762.149361",
+    "avgVolume": "36,113,261",
     "marketCap": "1,400,983,451,600",
     "previousClose": 362.44,
     "week52High": 498.83,
     "week52Low": 297.38,
     "oneYrTarget": 400.0,
     "exchange": "NASDAQ-GS",
-    "nasdaqTimestamp": "Oct 15, 2026",
-    "marketStatus": "Closed",
+    "nasdaqTimestamp": "Oct 19, 2026 7:56 PM ET",
+    "marketStatus": "After-Hours",
     "asOfTradingDay": "2026-10-16"
   },
   "peers": {
     "SPY": {
       "symbol": "SPY",
       "name": "State Street SPDR S&P 500 ETF Trust",
-      "price": 763.25,
-      "change": -8.54,
-      "changePct": -1.11,
-      "volume": "64,385,633",
-      "timestamp": "Oct 15, 2026",
-      "marketStatus": "Closed",
-      "delta": "down"
+      "price": 767.4092,
+      "change": 0.8092,
+      "changePct": 0.11,
+      "volume": "38,673,523.578498",
+      "timestamp": "Oct 19, 2026 7:51 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "up"
     },
     "QQQ": {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 709.8,
-      "change": -18.2,
-      "changePct": -2.5,
-      "volume": "66,928,215",
-      "timestamp": "Oct 15, 2026",
-      "marketStatus": "Closed",
-      "delta": "down"
+      "price": 719.26,
+      "change": 0.9,
+      "changePct": 0.13,
+      "volume": "37,172,133.641887",
+      "timestamp": "Oct 19, 2026 7:57 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "up"
     },
     "AAPL": {
       "symbol": "AAPL",
       "name": "Apple Inc. Common Stock",
-      "price": 343.46,
-      "change": 1.46,
-      "changePct": 0.43,
-      "volume": "59,946,749",
-      "timestamp": "Oct 15, 2026",
-      "marketStatus": "Closed",
-      "delta": "up"
+      "price": 342.884,
+      "change": -0.056,
+      "changePct": -0.02,
+      "volume": "34,570,591.226534",
+      "timestamp": "Oct 19, 2026 7:56 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "down"
     },
     "MSFT": {
       "symbol": "MSFT",
       "name": "Microsoft Corporation Common Stock",
-      "price": 529.05,
-      "change": -10.39,
-      "changePct": -1.93,
-      "volume": "24,845,909",
-      "timestamp": "Oct 15, 2026",
-      "marketStatus": "Closed",
+      "price": 532.6484,
+      "change": -0.8716,
+      "changePct": -0.16,
+      "volume": "17,993,378.802626",
+      "timestamp": "Oct 19, 2026 7:51 PM ET",
+      "marketStatus": "After-Hours",
       "delta": "down"
     },
     "NVDA": {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation Common Stock",
-      "price": 214.13,
-      "change": -3.1,
-      "changePct": -1.43,
-      "volume": "121,255,149",
-      "timestamp": "Oct 15, 2026",
-      "marketStatus": "Closed",
-      "delta": "down"
+      "price": 217.1999,
+      "change": 0.1099,
+      "changePct": 0.05,
+      "volume": "98,669,024.533753",
+      "timestamp": "Oct 19, 2026 7:59 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "up"
     },
     "AMZN": {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc. Common Stock",
-      "price": 250.0,
-      "change": -4.76,
-      "changePct": -1.87,
-      "volume": "40,427,549",
-      "timestamp": "Oct 15, 2026",
-      "marketStatus": "Closed",
-      "delta": "down"
+      "price": 263.29,
+      "change": 0.84,
+      "changePct": 0.32,
+      "volume": "56,185,210.608121",
+      "timestamp": "Oct 19, 2026 7:58 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "up"
     },
     "GOOGL": {
       "symbol": "GOOGL",
       "name": "Alphabet Inc. Class A Common Stock",
-      "price": 340.59,
-      "change": -8.63,
-      "changePct": -2.47,
-      "volume": "28,642,316",
-      "timestamp": "Oct 15, 2026",
-      "marketStatus": "Closed",
-      "delta": "down"
+      "price": 344.49,
+      "change": 0.31,
+      "changePct": 0.09,
+      "volume": "19,806,115.188766",
+      "timestamp": "Oct 19, 2026 7:46 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "up"
     },
     "META": {
       "symbol": "META",
       "name": "Meta Platforms, Inc. Class A Common Stock",
-      "price": 709.325,
-      "change": -27.395,
-      "changePct": -3.72,
-      "volume": "20,644,400",
-      "timestamp": "Oct 15, 2026",
-      "marketStatus": "Closed",
-      "delta": "down"
+      "price": 706.63,
+      "change": 1.19,
+      "changePct": 0.17,
+      "volume": "16,254,413.536867",
+      "timestamp": "Oct 19, 2026 7:56 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "up"
     },
     "AVGO": {
       "symbol": "AVGO",
       "name": "Broadcom Inc. Common Stock",
-      "price": 328.75,
-      "change": -15.58,
-      "changePct": -4.52,
-      "volume": "29,840,212",
-      "timestamp": "Oct 15, 2026",
-      "marketStatus": "Closed",
-      "delta": "down"
+      "price": 335.81,
+      "change": 1.22,
+      "changePct": 0.36,
+      "volume": "17,442,853.015083",
+      "timestamp": "Oct 19, 2026 7:54 PM ET",
+      "marketStatus": "After-Hours",
+      "delta": "up"
     }
   },
   "peerSection": {
@@ -197,10 +197,6 @@
   },
   "history": {
     "TSLA": [
-      {
-        "date": "2025-08-25",
-        "close": 346.6
-      },
       {
         "date": "2025-08-26",
         "close": 351.67
@@ -1356,10 +1352,6 @@
     ],
     "SPY": [
       {
-        "date": "2025-08-25",
-        "close": 642.47
-      },
-      {
         "date": "2025-08-26",
         "close": 645.16
       },
@@ -2513,10 +2505,6 @@
       }
     ],
     "QQQ": [
-      {
-        "date": "2025-08-25",
-        "close": 570.32
-      },
       {
         "date": "2025-08-26",
         "close": 572.61
@@ -3672,10 +3660,6 @@
     ],
     "AAPL": [
       {
-        "date": "2025-08-25",
-        "close": 227.16
-      },
-      {
         "date": "2025-08-26",
         "close": 229.31
       },
@@ -4829,10 +4813,6 @@
       }
     ],
     "MSFT": [
-      {
-        "date": "2025-08-25",
-        "close": 504.26
-      },
       {
         "date": "2025-08-26",
         "close": 502.04
@@ -5988,10 +5968,6 @@
     ],
     "NVDA": [
       {
-        "date": "2025-08-25",
-        "close": 179.81
-      },
-      {
         "date": "2025-08-26",
         "close": 181.77
       },
@@ -7145,10 +7121,6 @@
       }
     ],
     "AMZN": [
-      {
-        "date": "2025-08-25",
-        "close": 227.94
-      },
       {
         "date": "2025-08-26",
         "close": 228.71
@@ -8304,10 +8276,6 @@
     ],
     "GOOGL": [
       {
-        "date": "2025-08-25",
-        "close": 208.49
-      },
-      {
         "date": "2025-08-26",
         "close": 207.14
       },
@@ -9462,10 +9430,6 @@
     ],
     "META": [
       {
-        "date": "2025-08-25",
-        "close": 753.3
-      },
-      {
         "date": "2025-08-26",
         "close": 754.1
       },
@@ -10619,10 +10583,6 @@
       }
     ],
     "AVGO": [
-      {
-        "date": "2025-08-25",
-        "close": 294.23
-      },
       {
         "date": "2025-08-26",
         "close": 298.01
@@ -11779,44 +11739,44 @@
   },
   "news": [
     {
+      "title": "Strength in Chipmakers and AI-Infrastructure Stocks Lead the Broader Market Higher",
+      "time": "50 minutes ago",
+      "url": "/articles/strength-chipmakers-and-ai-infrastructure-stocks-lead-broader-market-higher",
+      "source": "Barchart",
+      "demo": false
+    },
+    {
+      "title": "Stocks Supported by a Rebound in Chipmakers and AI-Infrastructure Companies",
+      "time": "1 hour ago",
+      "url": "/articles/stocks-supported-rebound-chipmakers-and-ai-infrastructure-companies",
+      "source": "Barchart",
+      "demo": false
+    },
+    {
+      "title": "5 Must-See Earnings Charts This Week",
+      "time": "3 hours ago",
+      "url": "/articles/5-must-see-earnings-charts-week-0",
+      "source": "Zacks",
+      "demo": false
+    },
+    {
+      "title": "Magnificent 7 Earnings Preview: Meta & Tesla Take Center Stage This Week",
+      "time": "6 hours ago",
+      "url": "/articles/magnificent-7-earnings-preview-meta-tesla-take-center-stage-week",
+      "source": "Zacks",
+      "demo": false
+    },
+    {
       "title": "Stock Indexes Finish Sharply Lower as Tech Stocks Plunge",
-      "time": "25 minutes ago",
+      "time": "6 hours ago",
       "url": "/articles/stock-indexes-finish-sharply-lower-tech-stocks-plunge",
       "source": "Barchart",
       "demo": false
     },
     {
-      "title": "Breakfast News: The Sunday Edition",
-      "time": "12 hours ago",
-      "url": "/articles/breakfast-news-sunday-edition-4",
-      "source": "The Motley Fool",
-      "demo": false
-    },
-    {
-      "title": "Elon Musk Says Optimus Is Tesla's Most Important Product. These 3 Suppliers Get Paid Before Tesla Does.",
-      "time": "17 hours ago",
-      "url": "/articles/elon-musk-says-optimus-teslas-most-important-product-these-3-suppliers-get-paid-tesla-does",
-      "source": "The Motley Fool",
-      "demo": false
-    },
-    {
-      "title": "MarketBeat Week in Review – 10/12 - 10/16",
-      "time": "1 day ago",
-      "url": "/articles/marketbeat-week-review-10-12-10-16",
-      "source": "MarketBeat",
-      "demo": false
-    },
-    {
-      "title": "History Says Tesla Stock Swings Hard on Earnings. It Has Moved 8% or More After 10 of Its Last 15 Reports.",
-      "time": "1 day ago",
-      "url": "/articles/history-says-tesla-stock-swings-hard-earnings-it-has-moved-8-or-more-after-10-its-last-15",
-      "source": "The Motley Fool",
-      "demo": false
-    },
-    {
-      "title": "BYD or Tesla: Which Is a Better Stock?",
-      "time": "1 day ago",
-      "url": "/articles/byd-or-tesla-which-better-stock",
+      "title": "A SpaceX-Tesla Merger Could Happen Before the End of 2026. Here's What That Could Mean for the Stocks",
+      "time": "8 hours ago",
+      "url": "/articles/spacex-tesla-merger-could-happen-end-2026-heres-what-could-mean-stocks",
       "source": "The Motley Fool",
       "demo": false
     }
@@ -12002,7 +11962,7 @@
         "isPoc": false
       }
     ],
-    "currentPrice": 354.72,
+    "currentPrice": 368.77,
     "priceVsChips": "inside",
     "priceVsChipsLabel": "现价位于主筹码区内",
     "totalVolume": 3544236890,
@@ -12219,9 +12179,9 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 354.72,
-      "priceVsChips": "below",
-      "priceVsChipsLabel": "现价位于主筹码区下方",
+      "currentPrice": 368.77,
+      "priceVsChips": "inside",
+      "priceVsChipsLabel": "现价位于主筹码区内",
       "totalVolume": 689453720,
       "asOf": "2026-10-16",
       "fromDate": "2026-09-21",
@@ -12435,7 +12395,7 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 354.72,
+      "currentPrice": 368.77,
       "priceVsChips": "inside",
       "priceVsChipsLabel": "现价位于主筹码区内",
       "totalVolume": 2204414650,
@@ -12651,7 +12611,7 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 354.72,
+      "currentPrice": 368.77,
       "priceVsChips": "inside",
       "priceVsChipsLabel": "现价位于主筹码区内",
       "totalVolume": 3544236890,
@@ -12867,9 +12827,9 @@
           "isPoc": false
         }
       ],
-      "currentPrice": 354.72,
-      "priceVsChips": "below",
-      "priceVsChipsLabel": "现价位于主筹码区下方",
+      "currentPrice": 368.77,
+      "priceVsChips": "inside",
+      "priceVsChipsLabel": "现价位于主筹码区内",
       "totalVolume": 14206920420,
       "asOf": "2026-10-16",
       "fromDate": "2025-10-20",
