@@ -1,122 +1,122 @@
 {
   "source": "Nasdaq.com 公开接口快照",
-  "fetchedAt": "2026-10-30 08:26:55 CST",
+  "fetchedAt": "2026-11-01 11:54:26 CST",
   "asOfNote": "美股最近交易日收盘（周末/休市时为上一个交易日）",
   "live": true,
   "kpi": {
-    "price": 397.3,
-    "change": -6.0,
-    "changePct": -1.49,
-    "volume": "22,842,359.717389",
-    "avgVolume": "37,857,596",
-    "marketCap": "1,597,783,816,932",
-    "previousClose": 407.46,
+    "price": 399.81,
+    "change": -3.49,
+    "changePct": -0.87,
+    "volume": "41,737,973",
+    "avgVolume": "37,584,654",
+    "marketCap": "1,580,352,154,390",
+    "previousClose": 403.3,
     "week52High": 498.83,
     "week52Low": 297.38,
     "oneYrTarget": 422.5,
     "exchange": "NASDAQ-GS",
-    "nasdaqTimestamp": "Oct 29, 2026 7:56 PM ET",
-    "marketStatus": "After-Hours",
-    "asOfTradingDay": "2026-10-28"
+    "nasdaqTimestamp": "Oct 30, 2026",
+    "marketStatus": "Closed",
+    "asOfTradingDay": "2026-10-30"
   },
   "peers": {
     "SPY": {
       "symbol": "SPY",
       "name": "State Street SPDR S&P 500 ETF Trust",
-      "price": 764.68,
-      "change": -4.81,
-      "changePct": -0.63,
-      "volume": "40,296,924.945466",
-      "timestamp": "Oct 29, 2026 7:55 PM ET",
-      "marketStatus": "After-Hours",
+      "price": 755.72,
+      "change": -13.64,
+      "changePct": -1.77,
+      "volume": "77,697,282",
+      "timestamp": "Oct 30, 2026",
+      "marketStatus": "Closed",
       "delta": "down"
     },
     "QQQ": {
       "symbol": "QQQ",
       "name": "Invesco QQQ Trust, Series 1",
-      "price": 704.68,
-      "change": -10.66,
-      "changePct": -1.49,
-      "volume": "38,155,602.094528",
-      "timestamp": "Oct 29, 2026 7:35 PM ET",
-      "marketStatus": "After-Hours",
+      "price": 690.49,
+      "change": -24.85,
+      "changePct": -3.47,
+      "volume": "85,243,391",
+      "timestamp": "Oct 30, 2026",
+      "marketStatus": "Closed",
       "delta": "down"
     },
     "AAPL": {
       "symbol": "AAPL",
       "name": "Apple Inc. Common Stock",
-      "price": 352.0,
-      "change": 3.09,
-      "changePct": 0.89,
-      "volume": "42,556,485.409179",
-      "timestamp": "Oct 29, 2026 7:44 PM ET",
-      "marketStatus": "After-Hours",
-      "delta": "up"
+      "price": 344.63,
+      "change": -4.28,
+      "changePct": -1.23,
+      "volume": "67,841,735",
+      "timestamp": "Oct 30, 2026",
+      "marketStatus": "Closed",
+      "delta": "down"
     },
     "MSFT": {
       "symbol": "MSFT",
       "name": "Microsoft Corporation Common Stock",
-      "price": 529.25,
-      "change": -0.89,
-      "changePct": -0.17,
-      "volume": "39,330,181.512144",
-      "timestamp": "Oct 29, 2026 7:58 PM ET",
-      "marketStatus": "After-Hours",
+      "price": 521.91,
+      "change": -8.23,
+      "changePct": -1.55,
+      "volume": "35,652,254",
+      "timestamp": "Oct 30, 2026",
+      "marketStatus": "Closed",
       "delta": "down"
     },
     "NVDA": {
       "symbol": "NVDA",
       "name": "NVIDIA Corporation Common Stock",
-      "price": 210.17,
-      "change": -3.49,
-      "changePct": -1.63,
-      "volume": "77,546,280.319082",
-      "timestamp": "Oct 29, 2026 7:58 PM ET",
-      "marketStatus": "After-Hours",
+      "price": 204.64,
+      "change": -9.02,
+      "changePct": -4.22,
+      "volume": "168,389,192",
+      "timestamp": "Oct 30, 2026",
+      "marketStatus": "Closed",
       "delta": "down"
     },
     "AMZN": {
       "symbol": "AMZN",
       "name": "Amazon.com, Inc. Common Stock",
-      "price": 225.7,
-      "change": -18.09,
-      "changePct": -7.42,
-      "volume": "84,959,555.980087",
-      "timestamp": "Oct 29, 2026 7:44 PM ET",
-      "marketStatus": "After-Hours",
+      "price": 240.35,
+      "change": -3.44,
+      "changePct": -1.41,
+      "volume": "104,895,008",
+      "timestamp": "Oct 30, 2026",
+      "marketStatus": "Closed",
       "delta": "down"
     },
     "GOOGL": {
       "symbol": "GOOGL",
       "name": "Alphabet Inc. Class A Common Stock",
-      "price": 280.63,
-      "change": -3.19,
-      "changePct": -1.12,
-      "volume": "139,730,885.513848",
-      "timestamp": "Oct 29, 2026 7:59 PM ET",
-      "marketStatus": "After-Hours",
+      "price": 279.84,
+      "change": -3.98,
+      "changePct": -1.4,
+      "volume": "65,695,650",
+      "timestamp": "Oct 30, 2026",
+      "marketStatus": "Closed",
       "delta": "down"
     },
     "META": {
       "symbol": "META",
       "name": "Meta Platforms, Inc. Class A Common Stock",
-      "price": 621.542,
-      "change": -2.978,
-      "changePct": -0.48,
-      "volume": "31,273,425.315778",
-      "timestamp": "Oct 29, 2026 7:56 PM ET",
-      "marketStatus": "After-Hours",
+      "price": 614.99,
+      "change": -9.53,
+      "changePct": -1.53,
+      "volume": "25,365,440",
+      "timestamp": "Oct 30, 2026",
+      "marketStatus": "Closed",
       "delta": "down"
     },
     "AVGO": {
       "symbol": "AVGO",
       "name": "Broadcom Inc. Common Stock",
-      "price": 335.0452,
-      "change": -9.9548,
-      "changePct": -2.89,
-      "volume": "17,045,658.722152",
-      "timestamp": "Oct 29, 2026 7:52 PM ET",
-      "marketStatus": "After-Hours",
+      "price": 326.08,
+      "change": -18.92,
+      "changePct": -5.48,
+      "volume": "36,512,118",
+      "timestamp": "Oct 30, 2026",
+      "marketStatus": "Closed",
       "delta": "down"
     }
   },
@@ -135,72 +135,68 @@
   },
   "performance": {
     "TSLA": {
-      "1M": 14.56,
-      "3M": 31.48,
-      "1Y": -5.72,
-      "last": 404.22
+      "1M": 12.91,
+      "3M": 29.45,
+      "1Y": -10.64,
+      "last": 399.81
     },
     "SPY": {
-      "1M": 1.06,
-      "3M": 4.25,
-      "1Y": 16.9,
-      "last": 772.31
+      "1M": -1.08,
+      "3M": 1.89,
+      "1Y": 12.58,
+      "last": 755.72
     },
     "QQQ": {
-      "1M": -1.67,
-      "3M": 7.42,
-      "1Y": 20.94,
-      "last": 725.61
+      "1M": -6.95,
+      "3M": 1.02,
+      "1Y": 12.91,
+      "last": 690.49
     },
     "AAPL": {
-      "1M": 4.38,
-      "3M": 1.1,
-      "1Y": 38.95,
-      "last": 343.83
+      "1M": 4.33,
+      "3M": 3.36,
+      "1Y": 31.42,
+      "last": 344.63
     },
     "MSFT": {
-      "1M": 4.33,
-      "3M": 35.0,
-      "1Y": 3.79,
-      "last": 531.01
+      "1M": 1.78,
+      "3M": 15.7,
+      "1Y": 0.99,
+      "last": 521.91
     },
     "NVDA": {
-      "1M": -5.21,
-      "3M": 9.32,
-      "1Y": 18.46,
-      "last": 215.38
+      "1M": -11.36,
+      "3M": 4.92,
+      "1Y": 12.05,
+      "last": 204.64
     },
     "AMZN": {
-      "1M": 3.21,
-      "3M": 10.28,
-      "1Y": 18.71,
-      "last": 254.6
+      "1M": -3.17,
+      "3M": 2.06,
+      "1Y": 11.03,
+      "last": 240.35
     },
     "GOOGL": {
-      "1M": -4.7,
-      "3M": -2.64,
-      "1Y": 29.2,
-      "last": 324.89
+      "1M": -17.27,
+      "3M": -16.13,
+      "1Y": 9.08,
+      "last": 279.84
     },
     "META": {
-      "1M": -17.1,
-      "3M": 3.22,
-      "1Y": -13.98,
-      "last": 612.49
+      "1M": -15.28,
+      "3M": 14.09,
+      "1Y": -16.0,
+      "last": 614.99
     },
     "AVGO": {
-      "1M": -0.93,
-      "3M": -7.64,
-      "1Y": -0.66,
-      "last": 351.81
+      "1M": -5.11,
+      "3M": -15.92,
+      "1Y": -6.63,
+      "last": 326.08
     }
   },
   "history": {
     "TSLA": [
-      {
-        "date": "2025-09-05",
-        "close": 350.84
-      },
       {
         "date": "2025-09-08",
         "close": 346.4
@@ -1352,13 +1348,17 @@
       {
         "date": "2026-10-28",
         "close": 404.22
+      },
+      {
+        "date": "2026-10-29",
+        "close": 403.3
+      },
+      {
+        "date": "2026-10-30",
+        "close": 399.81
       }
     ],
     "SPY": [
-      {
-        "date": "2025-09-05",
-        "close": 647.24
-      },
       {
         "date": "2025-09-08",
         "close": 648.83
@@ -2510,13 +2510,17 @@
       {
         "date": "2026-10-28",
         "close": 772.31
+      },
+      {
+        "date": "2026-10-29",
+        "close": 769.36
+      },
+      {
+        "date": "2026-10-30",
+        "close": 755.72
       }
     ],
     "QQQ": [
-      {
-        "date": "2025-09-05",
-        "close": 576.06
-      },
       {
         "date": "2025-09-08",
         "close": 578.87
@@ -3668,13 +3672,17 @@
       {
         "date": "2026-10-28",
         "close": 725.61
+      },
+      {
+        "date": "2026-10-29",
+        "close": 715.34
+      },
+      {
+        "date": "2026-10-30",
+        "close": 690.49
       }
     ],
     "AAPL": [
-      {
-        "date": "2025-09-05",
-        "close": 239.69
-      },
       {
         "date": "2025-09-08",
         "close": 237.88
@@ -4826,13 +4834,17 @@
       {
         "date": "2026-10-28",
         "close": 343.83
+      },
+      {
+        "date": "2026-10-29",
+        "close": 348.91
+      },
+      {
+        "date": "2026-10-30",
+        "close": 344.63
       }
     ],
     "MSFT": [
-      {
-        "date": "2025-09-05",
-        "close": 495.0
-      },
       {
         "date": "2025-09-08",
         "close": 498.2
@@ -5984,13 +5996,17 @@
       {
         "date": "2026-10-28",
         "close": 531.01
+      },
+      {
+        "date": "2026-10-29",
+        "close": 530.14
+      },
+      {
+        "date": "2026-10-30",
+        "close": 521.91
       }
     ],
     "NVDA": [
-      {
-        "date": "2025-09-05",
-        "close": 167.02
-      },
       {
         "date": "2025-09-08",
         "close": 168.31
@@ -7142,13 +7158,17 @@
       {
         "date": "2026-10-28",
         "close": 215.38
+      },
+      {
+        "date": "2026-10-29",
+        "close": 213.66
+      },
+      {
+        "date": "2026-10-30",
+        "close": 204.64
       }
     ],
     "AMZN": [
-      {
-        "date": "2025-09-05",
-        "close": 232.33
-      },
       {
         "date": "2025-09-08",
         "close": 235.84
@@ -8300,13 +8320,17 @@
       {
         "date": "2026-10-28",
         "close": 254.6
+      },
+      {
+        "date": "2026-10-29",
+        "close": 243.79
+      },
+      {
+        "date": "2026-10-30",
+        "close": 240.35
       }
     ],
     "GOOGL": [
-      {
-        "date": "2025-09-05",
-        "close": 235.0
-      },
       {
         "date": "2025-09-08",
         "close": 234.04
@@ -9458,13 +9482,17 @@
       {
         "date": "2026-10-28",
         "close": 324.89
+      },
+      {
+        "date": "2026-10-29",
+        "close": 283.82
+      },
+      {
+        "date": "2026-10-30",
+        "close": 279.84
       }
     ],
     "META": [
-      {
-        "date": "2025-09-05",
-        "close": 752.45
-      },
       {
         "date": "2025-09-08",
         "close": 752.3
@@ -10616,13 +10644,17 @@
       {
         "date": "2026-10-28",
         "close": 612.49
+      },
+      {
+        "date": "2026-10-29",
+        "close": 624.52
+      },
+      {
+        "date": "2026-10-30",
+        "close": 614.99
       }
     ],
     "AVGO": [
-      {
-        "date": "2025-09-05",
-        "close": 334.89
-      },
       {
         "date": "2025-09-08",
         "close": 345.65
@@ -11774,50 +11806,58 @@
       {
         "date": "2026-10-28",
         "close": 351.81
+      },
+      {
+        "date": "2026-10-29",
+        "close": 345.0
+      },
+      {
+        "date": "2026-10-30",
+        "close": 326.08
       }
     ]
   },
   "news": [
     {
-      "title": "Tesla vs. Ford: Which Stock Has an Edge After Q3 Earnings?",
-      "time": "9 hours ago",
-      "url": "/articles/tesla-vs-ford-which-stock-has-edge-after-q3-earnings",
-      "source": "Zacks",
-      "demo": false
-    },
-    {
-      "title": "Ford Q3 Earnings Beat on Ford Credit Strength & Favorable Mix",
-      "time": "9 hours ago",
-      "url": "/articles/ford-q3-earnings-beat-ford-credit-strength-favorable-mix",
-      "source": "Zacks",
-      "demo": false
-    },
-    {
-      "title": "PACCAR's Q3 Earnings Meet Estimates on Strong Truck Pricing ",
-      "time": "11 hours ago",
-      "url": "/articles/paccars-q3-earnings-meet-estimates-strong-truck-pricing",
-      "source": "Zacks",
-      "demo": false
-    },
-    {
-      "title": "Should You Buy Tesla Stock Right Now? The Answer Might Surprise You.",
-      "time": "11 hours ago",
-      "url": "/articles/should-you-buy-tesla-stock-right-now-answer-might-surprise-you",
+      "title": "Tesla's Cybercab Reaches Dallas in November, and Nevada Just Cleared 5,000 Robotaxis in Las Vegas. Here's the Number That Makes the Bulls Right.",
+      "time": "2 hours ago",
+      "url": "/articles/teslas-cybercab-reaches-dallas-november-and-nevada-just-cleared-5000-robotaxis-las-vegas",
       "source": "The Motley Fool",
       "demo": false
     },
     {
-      "title": "Great News for Tesla Stock Investors as a Merger with SpaceX is More Likely",
-      "time": "12 hours ago",
-      "url": "/articles/great-news-tesla-stock-investors-merger-spacex-more-likely",
+      "title": "Could Rivian's Model 3 Moment Be Coming? Tesla Stock Climbed 1,364% in 3 Years.",
+      "time": "10 hours ago",
+      "url": "/articles/could-rivians-model-3-moment-be-coming-tesla-stock-climbed-1364-3-years",
       "source": "The Motley Fool",
       "demo": false
     },
     {
-      "title": "The Zacks Analyst Blog Highlights Tesla, Netflix, American Express, InterGroup and Moving iMage Technologies",
+      "title": "Elon Musk Has Incredible News for Micron Stock Investors",
       "time": "12 hours ago",
-      "url": "/articles/zacks-analyst-blog-highlights-tesla-netflix-american-express-intergroup-and-moving-image",
-      "source": "Zacks",
+      "url": "/articles/elon-musk-has-incredible-news-micron-stock-investors",
+      "source": "The Motley Fool",
+      "demo": false
+    },
+    {
+      "title": "SpaceX Is Considering a Merger With Tesla. Here's Why That Would Be a Bad Move.",
+      "time": "18 hours ago",
+      "url": "/articles/spacex-considering-merger-tesla-heres-why-would-be-bad-move",
+      "source": "The Motley Fool",
+      "demo": false
+    },
+    {
+      "title": "A SpaceX and Tesla Merger Will Only Be Successful If This One Thing Happens",
+      "time": "21 hours ago",
+      "url": "/articles/spacex-and-tesla-merger-will-only-be-successful-if-one-thing-happens",
+      "source": "The Motley Fool",
+      "demo": false
+    },
+    {
+      "title": "Betting on Archer Aviation or Joby Aviation Being the Tesla of eVTOLs? They Could End Up More Like Lucid.",
+      "time": "22 hours ago",
+      "url": "/articles/betting-archer-aviation-or-joby-aviation-being-tesla-evtols-they-could-end-more-lucid",
+      "source": "The Motley Fool",
       "demo": false
     }
   ],
@@ -11967,208 +12007,208 @@
     "method": "daily_ohlcv_uniform_bins",
     "windowBars": 90,
     "windowLabel": "90个交易日",
-    "methodNote": "近约90个交易日（2026-06-23～2026-10-28）日线 OHLC+成交量按价格分桶（日内高低区间均匀分摊），近似筹码分布；非交易所逐笔筹码。",
+    "methodNote": "近约90个交易日（2026-06-25～2026-10-30）日线 OHLC+成交量按价格分桶（日内高低区间均匀分摊），近似筹码分布；非交易所逐笔筹码。",
     "disclaimer": "本图为日线成交量价格分布（Volume Profile）近似，非正式「筹码分布」或持仓成本分布，不构成投资建议。",
     "barsUsed": 90,
     "bucketCount": 24,
     "bucketWidth": 5.64,
     "rangeLow": 297.38,
     "rangeHigh": 432.86,
-    "pocPrice": 379.23,
-    "pocPct": 8.89,
+    "pocPrice": 362.3,
+    "pocPct": 8.79,
     "valueAreaLow": 319.96,
-    "valueAreaHigh": 404.63,
-    "valueAreaPct": 83.1,
+    "valueAreaHigh": 410.28,
+    "valueAreaPct": 86.1,
     "topBands": [
-      {
-        "priceMid": 379.23,
-        "priceLow": 376.41,
-        "priceHigh": 382.05,
-        "pct": 8.89,
-        "isPoc": true
-      },
       {
         "priceMid": 362.3,
         "priceLow": 359.47,
         "priceHigh": 365.12,
-        "pct": 8.73,
-        "isPoc": false
+        "pct": 8.79,
+        "isPoc": true
       },
       {
         "priceMid": 356.65,
         "priceLow": 353.83,
         "priceHigh": 359.47,
-        "pct": 8.47,
+        "pct": 8.53,
+        "isPoc": false
+      },
+      {
+        "priceMid": 367.94,
+        "priceLow": 365.12,
+        "priceHigh": 370.76,
+        "pct": 8.32,
         "isPoc": false
       }
     ],
-    "currentPrice": 397.3,
+    "currentPrice": 399.81,
     "priceVsChips": "inside",
     "priceVsChipsLabel": "现价位于主筹码区内",
-    "totalVolume": 3490163270,
-    "asOf": "2026-10-28",
-    "fromDate": "2026-06-23",
+    "totalVolume": 3467257090,
+    "asOf": "2026-10-30",
+    "fromDate": "2026-06-25",
     "buckets": [
       {
         "priceMid": 300.2,
         "priceLow": 297.38,
         "priceHigh": 303.02,
         "volume": 48252923,
-        "pct": 1.38
+        "pct": 1.39
       },
       {
         "priceMid": 305.85,
         "priceLow": 303.02,
         "priceHigh": 308.67,
         "volume": 78916052,
-        "pct": 2.26
+        "pct": 2.28
       },
       {
         "priceMid": 311.49,
         "priceLow": 308.67,
         "priceHigh": 314.31,
         "volume": 91676506,
-        "pct": 2.63
+        "pct": 2.64
       },
       {
         "priceMid": 317.14,
         "priceLow": 314.31,
         "priceHigh": 319.96,
         "volume": 88719392,
-        "pct": 2.54
+        "pct": 2.56
       },
       {
         "priceMid": 322.78,
         "priceLow": 319.96,
         "priceHigh": 325.6,
         "volume": 126565666,
-        "pct": 3.63
+        "pct": 3.65
       },
       {
         "priceMid": 328.43,
         "priceLow": 325.6,
         "priceHigh": 331.25,
         "volume": 118604330,
-        "pct": 3.4
+        "pct": 3.42
       },
       {
         "priceMid": 334.07,
         "priceLow": 331.25,
         "priceHigh": 336.89,
         "volume": 108577918,
-        "pct": 3.11
+        "pct": 3.13
       },
       {
         "priceMid": 339.72,
         "priceLow": 336.89,
         "priceHigh": 342.54,
         "volume": 99599049,
-        "pct": 2.85
+        "pct": 2.87
       },
       {
         "priceMid": 345.36,
         "priceLow": 342.54,
         "priceHigh": 348.18,
         "volume": 116775185,
-        "pct": 3.35
+        "pct": 3.37
       },
       {
         "priceMid": 351.01,
         "priceLow": 348.18,
         "priceHigh": 353.83,
         "volume": 203523278,
-        "pct": 5.83
+        "pct": 5.87
       },
       {
         "priceMid": 356.65,
         "priceLow": 353.83,
         "priceHigh": 359.47,
         "volume": 295731389,
-        "pct": 8.47
+        "pct": 8.53
       },
       {
         "priceMid": 362.3,
         "priceLow": 359.47,
         "priceHigh": 365.12,
         "volume": 304743523,
-        "pct": 8.73
+        "pct": 8.79
       },
       {
         "priceMid": 367.94,
         "priceLow": 365.12,
         "priceHigh": 370.76,
         "volume": 288466832,
-        "pct": 8.27
+        "pct": 8.32
       },
       {
         "priceMid": 373.59,
         "priceLow": 370.76,
         "priceHigh": 376.41,
-        "volume": 284431856,
-        "pct": 8.15
+        "volume": 272071383,
+        "pct": 7.85
       },
       {
         "priceMid": 379.23,
         "priceLow": 376.41,
         "priceHigh": 382.05,
-        "volume": 310270099,
-        "pct": 8.89
+        "volume": 281102889,
+        "pct": 8.11
       },
       {
         "priceMid": 384.88,
         "priceLow": 382.05,
         "priceHigh": 387.7,
-        "volume": 235482216,
-        "pct": 6.75
+        "volume": 216749301,
+        "pct": 6.25
       },
       {
         "priceMid": 390.52,
         "priceLow": 387.7,
         "priceHigh": 393.34,
-        "volume": 160551490,
-        "pct": 4.6
+        "volume": 154179048,
+        "pct": 4.45
       },
       {
         "priceMid": 396.17,
         "priceLow": 393.34,
         "priceHigh": 398.99,
-        "volume": 126582394,
-        "pct": 3.63
+        "volume": 137016689,
+        "pct": 3.95
       },
       {
         "priceMid": 401.81,
         "priceLow": 398.99,
         "priceHigh": 404.63,
-        "volume": 119803429,
-        "pct": 3.43
+        "volume": 141666859,
+        "pct": 4.09
       },
       {
         "priceMid": 407.46,
         "priceLow": 404.63,
         "priceHigh": 410.28,
-        "volume": 107675703,
-        "pct": 3.09
+        "volume": 119104838,
+        "pct": 3.44
       },
       {
         "priceMid": 413.1,
         "priceLow": 410.28,
         "priceHigh": 415.92,
         "volume": 67016133,
-        "pct": 1.92
+        "pct": 1.93
       },
       {
         "priceMid": 418.75,
         "priceLow": 415.92,
         "priceHigh": 421.57,
         "volume": 52120627,
-        "pct": 1.49
+        "pct": 1.5
       },
       {
         "priceMid": 424.39,
         "priceLow": 421.57,
         "priceHigh": 427.21,
         "volume": 33461842,
-        "pct": 0.96
+        "pct": 0.97
       },
       {
         "priceMid": 430.04,
@@ -12184,7 +12224,7 @@
       "method": "daily_ohlcv_uniform_bins",
       "windowBars": 20,
       "windowLabel": "20个交易日",
-      "methodNote": "近约20个交易日（2026-10-01～2026-10-28）日线 OHLC+成交量按价格分桶（日内高低区间均匀分摊），近似筹码分布；非交易所逐笔筹码。",
+      "methodNote": "近约20个交易日（2026-10-05～2026-10-30）日线 OHLC+成交量按价格分桶（日内高低区间均匀分摊），近似筹码分布；非交易所逐笔筹码。",
       "disclaimer": "本图为日线成交量价格分布（Volume Profile）近似，非正式「筹码分布」或持仓成本分布，不构成投资建议。",
       "barsUsed": 20,
       "bucketCount": 24,
@@ -12192,207 +12232,207 @@
       "rangeLow": 349.33,
       "rangeHigh": 410.85,
       "pocPrice": 381.37,
-      "pocPct": 7.46,
-      "valueAreaLow": 357.02,
-      "valueAreaHigh": 390.34,
-      "valueAreaPct": 79.0,
+      "pocPct": 7.69,
+      "valueAreaLow": 362.15,
+      "valueAreaHigh": 398.03,
+      "valueAreaPct": 76.0,
       "topBands": [
         {
           "priceMid": 381.37,
           "priceLow": 380.09,
           "priceHigh": 382.65,
-          "pct": 7.46,
+          "pct": 7.69,
           "isPoc": true
         },
         {
-          "priceMid": 368.56,
-          "priceLow": 367.27,
-          "priceHigh": 369.84,
-          "pct": 7.18,
+          "priceMid": 383.94,
+          "priceLow": 382.65,
+          "priceHigh": 385.22,
+          "pct": 7.19,
           "isPoc": false
         },
         {
-          "priceMid": 371.12,
-          "priceLow": 369.84,
-          "priceHigh": 372.4,
-          "pct": 7.13,
+          "priceMid": 378.81,
+          "priceLow": 377.53,
+          "priceHigh": 380.09,
+          "pct": 6.63,
           "isPoc": false
         }
       ],
-      "currentPrice": 397.3,
+      "currentPrice": 399.81,
       "priceVsChips": "above",
       "priceVsChipsLabel": "现价位于主筹码区上方",
-      "totalVolume": 747968440,
-      "asOf": "2026-10-28",
-      "fromDate": "2026-10-01",
+      "totalVolume": 726152980,
+      "asOf": "2026-10-30",
+      "fromDate": "2026-10-05",
       "buckets": [
         {
           "priceMid": 350.61,
           "priceLow": 349.33,
           "priceHigh": 351.89,
           "volume": 6896371,
-          "pct": 0.92
+          "pct": 0.95
         },
         {
           "priceMid": 353.18,
           "priceLow": 351.89,
           "priceHigh": 354.46,
-          "volume": 14666564,
-          "pct": 1.96
+          "volume": 6896371,
+          "pct": 0.95
         },
         {
           "priceMid": 355.74,
           "priceLow": 354.46,
           "priceHigh": 357.02,
-          "volume": 27818293,
-          "pct": 3.72
+          "volume": 20048100,
+          "pct": 2.76
         },
         {
           "priceMid": 358.3,
           "priceLow": 357.02,
           "priceHigh": 359.58,
-          "volume": 35722598,
-          "pct": 4.78
+          "volume": 20048100,
+          "pct": 2.76
         },
         {
           "priceMid": 360.87,
           "priceLow": 359.58,
           "priceHigh": 362.15,
-          "volume": 35722598,
-          "pct": 4.78
+          "volume": 20048100,
+          "pct": 2.76
         },
         {
           "priceMid": 363.43,
           "priceLow": 362.15,
           "priceHigh": 364.71,
-          "volume": 40291807,
-          "pct": 5.39
+          "volume": 32387501,
+          "pct": 4.46
         },
         {
           "priceMid": 365.99,
           "priceLow": 364.71,
           "priceHigh": 367.27,
-          "volume": 46595562,
-          "pct": 6.23
+          "volume": 38691256,
+          "pct": 5.33
         },
         {
           "priceMid": 368.56,
           "priceLow": 367.27,
           "priceHigh": 369.84,
-          "volume": 53694299,
-          "pct": 7.18
+          "volume": 45789994,
+          "pct": 6.31
         },
         {
           "priceMid": 371.12,
           "priceLow": 369.84,
           "priceHigh": 372.4,
-          "volume": 53355661,
-          "pct": 7.13
+          "volume": 45451355,
+          "pct": 6.26
         },
         {
           "priceMid": 373.68,
           "priceLow": 372.4,
           "priceHigh": 374.96,
-          "volume": 52480555,
-          "pct": 7.02
+          "volume": 44576249,
+          "pct": 6.14
         },
         {
           "priceMid": 376.25,
           "priceLow": 374.96,
           "priceHigh": 377.53,
           "volume": 44576249,
-          "pct": 5.96
+          "pct": 6.14
         },
         {
           "priceMid": 378.81,
           "priceLow": 377.53,
           "priceHigh": 380.09,
           "volume": 48177634,
-          "pct": 6.44
+          "pct": 6.63
         },
         {
           "priceMid": 381.37,
           "priceLow": 380.09,
           "priceHigh": 382.65,
           "volume": 55807540,
-          "pct": 7.46
+          "pct": 7.69
         },
         {
           "priceMid": 383.94,
           "priceLow": 382.65,
           "priceHigh": 385.22,
           "volume": 52224030,
-          "pct": 6.98
+          "pct": 7.19
         },
         {
           "priceMid": 386.5,
           "priceLow": 385.22,
           "priceHigh": 387.78,
-          "volume": 36230787,
-          "pct": 4.84
+          "volume": 41447934,
+          "pct": 5.71
         },
         {
           "priceMid": 389.06,
           "priceLow": 387.78,
           "priceHigh": 390.34,
-          "volume": 36230787,
-          "pct": 4.84
+          "volume": 41447934,
+          "pct": 5.71
         },
         {
           "priceMid": 391.62,
           "priceLow": 390.34,
           "priceHigh": 392.91,
-          "volume": 8848368,
-          "pct": 1.18
+          "volume": 14065516,
+          "pct": 1.94
         },
         {
           "priceMid": 394.19,
           "priceLow": 392.91,
           "priceHigh": 395.47,
-          "volume": 15324544,
-          "pct": 2.05
+          "volume": 20541692,
+          "pct": 2.83
         },
         {
           "priceMid": 396.75,
           "priceLow": 395.47,
           "priceHigh": 398.03,
-          "volume": 21257672,
-          "pct": 2.84
+          "volume": 26474820,
+          "pct": 3.65
         },
         {
           "priceMid": 399.31,
           "priceLow": 398.03,
           "priceHigh": 400.6,
-          "volume": 12409304,
-          "pct": 1.66
+          "volume": 23341019,
+          "pct": 3.21
         },
         {
           "priceMid": 401.88,
           "priceLow": 400.6,
           "priceHigh": 403.16,
-          "volume": 12409304,
-          "pct": 1.66
+          "volume": 23341019,
+          "pct": 3.21
         },
         {
           "priceMid": 404.44,
           "priceLow": 403.16,
           "priceHigh": 405.72,
-          "volume": 12409304,
-          "pct": 1.66
+          "volume": 23341019,
+          "pct": 3.21
         },
         {
           "priceMid": 407.0,
           "priceLow": 405.72,
           "priceHigh": 408.29,
-          "volume": 12409304,
-          "pct": 1.66
+          "volume": 18123872,
+          "pct": 2.5
         },
         {
           "priceMid": 409.57,
           "priceLow": 408.29,
           "priceHigh": 410.85,
           "volume": 12409304,
-          "pct": 1.66
+          "pct": 1.71
         }
       ]
     },
@@ -12400,215 +12440,215 @@
       "method": "daily_ohlcv_uniform_bins",
       "windowBars": 60,
       "windowLabel": "60个交易日",
-      "methodNote": "近约60个交易日（2026-08-05～2026-10-28）日线 OHLC+成交量按价格分桶（日内高低区间均匀分摊），近似筹码分布；非交易所逐笔筹码。",
+      "methodNote": "近约60个交易日（2026-08-07～2026-10-30）日线 OHLC+成交量按价格分桶（日内高低区间均匀分摊），近似筹码分布；非交易所逐笔筹码。",
       "disclaimer": "本图为日线成交量价格分布（Volume Profile）近似，非正式「筹码分布」或持仓成本分布，不构成投资建议。",
       "barsUsed": 60,
       "bucketCount": 24,
-      "bucketWidth": 3.97,
-      "rangeLow": 315.52,
+      "bucketWidth": 3.73,
+      "rangeLow": 321.25,
       "rangeHigh": 410.85,
-      "pocPrice": 365.17,
-      "pocPct": 10.05,
-      "valueAreaLow": 347.3,
-      "valueAreaHigh": 387.02,
-      "valueAreaPct": 74.6,
+      "pocPrice": 364.18,
+      "pocPct": 10.04,
+      "valueAreaLow": 347.38,
+      "valueAreaHigh": 384.72,
+      "valueAreaPct": 72.5,
       "topBands": [
         {
-          "priceMid": 365.17,
-          "priceLow": 363.19,
-          "priceHigh": 367.16,
-          "pct": 10.05,
+          "priceMid": 364.18,
+          "priceLow": 362.32,
+          "priceHigh": 366.05,
+          "pct": 10.04,
           "isPoc": true
         },
         {
-          "priceMid": 369.14,
-          "priceLow": 367.16,
-          "priceHigh": 371.13,
-          "pct": 9.24,
+          "priceMid": 360.45,
+          "priceLow": 358.58,
+          "priceHigh": 362.32,
+          "pct": 9.01,
           "isPoc": false
         },
         {
-          "priceMid": 357.23,
-          "priceLow": 355.24,
-          "priceHigh": 359.21,
-          "pct": 8.9,
+          "priceMid": 356.72,
+          "priceLow": 354.85,
+          "priceHigh": 358.58,
+          "pct": 8.7,
           "isPoc": false
         }
       ],
-      "currentPrice": 397.3,
+      "currentPrice": 399.81,
       "priceVsChips": "above",
       "priceVsChipsLabel": "现价位于主筹码区上方",
-      "totalVolume": 2211432270,
-      "asOf": "2026-10-28",
-      "fromDate": "2026-08-05",
+      "totalVolume": 2222173130,
+      "asOf": "2026-10-30",
+      "fromDate": "2026-08-07",
       "buckets": [
         {
-          "priceMid": 317.51,
-          "priceLow": 315.52,
-          "priceHigh": 319.49,
-          "volume": 13016890,
-          "pct": 0.59
+          "priceMid": 323.12,
+          "priceLow": 321.25,
+          "priceHigh": 324.98,
+          "volume": 17047808,
+          "pct": 0.77
         },
         {
-          "priceMid": 321.48,
-          "priceLow": 319.49,
-          "priceHigh": 323.46,
-          "volume": 36800382,
-          "pct": 1.66
+          "priceMid": 326.85,
+          "priceLow": 324.98,
+          "priceHigh": 328.72,
+          "volume": 36491372,
+          "pct": 1.64
         },
         {
-          "priceMid": 325.45,
-          "priceLow": 323.46,
-          "priceHigh": 327.44,
-          "volume": 46234476,
-          "pct": 2.09
+          "priceMid": 330.58,
+          "priceLow": 328.72,
+          "priceHigh": 332.45,
+          "volume": 51271733,
+          "pct": 2.31
         },
         {
-          "priceMid": 329.42,
-          "priceLow": 327.44,
-          "priceHigh": 331.41,
-          "volume": 47104432,
-          "pct": 2.13
+          "priceMid": 334.32,
+          "priceLow": 332.45,
+          "priceHigh": 336.18,
+          "volume": 52465257,
+          "pct": 2.36
         },
         {
-          "priceMid": 333.39,
-          "priceLow": 331.41,
-          "priceHigh": 335.38,
-          "volume": 56191860,
-          "pct": 2.54
+          "priceMid": 338.05,
+          "priceLow": 336.18,
+          "priceHigh": 339.92,
+          "volume": 51788069,
+          "pct": 2.33
         },
         {
-          "priceMid": 337.37,
-          "priceLow": 335.38,
-          "priceHigh": 339.35,
-          "volume": 61701875,
-          "pct": 2.79
+          "priceMid": 341.78,
+          "priceLow": 339.92,
+          "priceHigh": 343.65,
+          "volume": 51149578,
+          "pct": 2.3
         },
         {
-          "priceMid": 341.34,
-          "priceLow": 339.35,
-          "priceHigh": 343.32,
-          "volume": 53888664,
-          "pct": 2.44
+          "priceMid": 345.52,
+          "priceLow": 343.65,
+          "priceHigh": 347.38,
+          "volume": 78426203,
+          "pct": 3.53
         },
         {
-          "priceMid": 345.31,
-          "priceLow": 343.32,
-          "priceHigh": 347.3,
-          "volume": 87493647,
-          "pct": 3.96
+          "priceMid": 349.25,
+          "priceLow": 347.38,
+          "priceHigh": 351.12,
+          "volume": 104878906,
+          "pct": 4.72
         },
         {
-          "priceMid": 349.28,
-          "priceLow": 347.3,
-          "priceHigh": 351.27,
-          "volume": 115424143,
-          "pct": 5.22
+          "priceMid": 352.98,
+          "priceLow": 351.12,
+          "priceHigh": 354.85,
+          "volume": 159024425,
+          "pct": 7.16
         },
         {
-          "priceMid": 353.26,
-          "priceLow": 351.27,
-          "priceHigh": 355.24,
-          "volume": 186166700,
-          "pct": 8.42
+          "priceMid": 356.72,
+          "priceLow": 354.85,
+          "priceHigh": 358.58,
+          "volume": 193436066,
+          "pct": 8.7
         },
         {
-          "priceMid": 357.23,
-          "priceLow": 355.24,
-          "priceHigh": 359.21,
-          "volume": 196766776,
-          "pct": 8.9
+          "priceMid": 360.45,
+          "priceLow": 358.58,
+          "priceHigh": 362.32,
+          "volume": 200251769,
+          "pct": 9.01
         },
         {
-          "priceMid": 361.2,
-          "priceLow": 359.21,
-          "priceHigh": 363.19,
-          "volume": 195995543,
-          "pct": 8.86
+          "priceMid": 364.18,
+          "priceLow": 362.32,
+          "priceHigh": 366.05,
+          "volume": 223200397,
+          "pct": 10.04
         },
         {
-          "priceMid": 365.17,
-          "priceLow": 363.19,
-          "priceHigh": 367.16,
-          "volume": 222194605,
-          "pct": 10.05
+          "priceMid": 367.92,
+          "priceLow": 366.05,
+          "priceHigh": 369.78,
+          "volume": 179976162,
+          "pct": 8.1
         },
         {
-          "priceMid": 369.14,
-          "priceLow": 367.16,
-          "priceHigh": 371.13,
-          "volume": 204369619,
-          "pct": 9.24
+          "priceMid": 371.65,
+          "priceLow": 369.78,
+          "priceHigh": 373.52,
+          "volume": 150289144,
+          "pct": 6.76
         },
         {
-          "priceMid": 373.12,
-          "priceLow": 371.13,
-          "priceHigh": 375.1,
-          "volume": 149375314,
-          "pct": 6.75
+          "priceMid": 375.38,
+          "priceLow": 373.52,
+          "priceHigh": 377.25,
+          "volume": 135467853,
+          "pct": 6.1
         },
         {
-          "priceMid": 377.09,
-          "priceLow": 375.1,
-          "priceHigh": 379.07,
-          "volume": 151497651,
-          "pct": 6.85
+          "priceMid": 379.12,
+          "priceLow": 377.25,
+          "priceHigh": 380.98,
+          "volume": 144989310,
+          "pct": 6.52
         },
         {
-          "priceMid": 381.06,
-          "priceLow": 379.07,
-          "priceHigh": 383.05,
-          "volume": 125049700,
-          "pct": 5.65
+          "priceMid": 382.85,
+          "priceLow": 380.98,
+          "priceHigh": 384.72,
+          "volume": 120620254,
+          "pct": 5.43
         },
         {
-          "priceMid": 385.03,
-          "priceLow": 383.05,
-          "priceHigh": 387.02,
-          "volume": 101812084,
-          "pct": 4.6
+          "priceMid": 386.58,
+          "priceLow": 384.72,
+          "priceHigh": 388.45,
+          "volume": 68694212,
+          "pct": 3.09
         },
         {
-          "priceMid": 389.0,
-          "priceLow": 387.02,
-          "priceHigh": 390.99,
-          "volume": 52870804,
-          "pct": 2.39
+          "priceMid": 390.32,
+          "priceLow": 388.45,
+          "priceHigh": 392.18,
+          "volume": 49853471,
+          "pct": 2.24
         },
         {
-          "priceMid": 392.98,
-          "priceLow": 390.99,
-          "priceHigh": 394.96,
-          "volume": 13272552,
-          "pct": 0.6
+          "priceMid": 394.05,
+          "priceLow": 392.18,
+          "priceHigh": 395.92,
+          "volume": 26640885,
+          "pct": 1.2
         },
         {
-          "priceMid": 396.95,
-          "priceLow": 394.96,
-          "priceHigh": 398.93,
-          "volume": 33505552,
-          "pct": 1.52
+          "priceMid": 397.78,
+          "priceLow": 395.92,
+          "priceHigh": 399.65,
+          "volume": 35540577,
+          "pct": 1.6
         },
         {
-          "priceMid": 400.92,
-          "priceLow": 398.93,
-          "priceHigh": 402.91,
-          "volume": 20233000,
-          "pct": 0.91
+          "priceMid": 401.52,
+          "priceLow": 399.65,
+          "priceHigh": 403.38,
+          "volume": 36351670,
+          "pct": 1.64
         },
         {
-          "priceMid": 404.89,
-          "priceLow": 402.91,
-          "priceHigh": 406.88,
-          "volume": 20233000,
-          "pct": 0.91
+          "priceMid": 405.25,
+          "priceLow": 403.38,
+          "priceHigh": 407.12,
+          "volume": 36351670,
+          "pct": 1.64
         },
         {
-          "priceMid": 408.86,
-          "priceLow": 406.88,
+          "priceMid": 408.98,
+          "priceLow": 407.12,
           "priceHigh": 410.85,
-          "volume": 20233000,
-          "pct": 0.91
+          "volume": 17966338,
+          "pct": 0.81
         }
       ]
     },
@@ -12616,208 +12656,208 @@
       "method": "daily_ohlcv_uniform_bins",
       "windowBars": 90,
       "windowLabel": "90个交易日",
-      "methodNote": "近约90个交易日（2026-06-23～2026-10-28）日线 OHLC+成交量按价格分桶（日内高低区间均匀分摊），近似筹码分布；非交易所逐笔筹码。",
+      "methodNote": "近约90个交易日（2026-06-25～2026-10-30）日线 OHLC+成交量按价格分桶（日内高低区间均匀分摊），近似筹码分布；非交易所逐笔筹码。",
       "disclaimer": "本图为日线成交量价格分布（Volume Profile）近似，非正式「筹码分布」或持仓成本分布，不构成投资建议。",
       "barsUsed": 90,
       "bucketCount": 24,
       "bucketWidth": 5.64,
       "rangeLow": 297.38,
       "rangeHigh": 432.86,
-      "pocPrice": 379.23,
-      "pocPct": 8.89,
+      "pocPrice": 362.3,
+      "pocPct": 8.79,
       "valueAreaLow": 319.96,
-      "valueAreaHigh": 404.63,
-      "valueAreaPct": 83.1,
+      "valueAreaHigh": 410.28,
+      "valueAreaPct": 86.1,
       "topBands": [
-        {
-          "priceMid": 379.23,
-          "priceLow": 376.41,
-          "priceHigh": 382.05,
-          "pct": 8.89,
-          "isPoc": true
-        },
         {
           "priceMid": 362.3,
           "priceLow": 359.47,
           "priceHigh": 365.12,
-          "pct": 8.73,
-          "isPoc": false
+          "pct": 8.79,
+          "isPoc": true
         },
         {
           "priceMid": 356.65,
           "priceLow": 353.83,
           "priceHigh": 359.47,
-          "pct": 8.47,
+          "pct": 8.53,
+          "isPoc": false
+        },
+        {
+          "priceMid": 367.94,
+          "priceLow": 365.12,
+          "priceHigh": 370.76,
+          "pct": 8.32,
           "isPoc": false
         }
       ],
-      "currentPrice": 397.3,
+      "currentPrice": 399.81,
       "priceVsChips": "inside",
       "priceVsChipsLabel": "现价位于主筹码区内",
-      "totalVolume": 3490163270,
-      "asOf": "2026-10-28",
-      "fromDate": "2026-06-23",
+      "totalVolume": 3467257090,
+      "asOf": "2026-10-30",
+      "fromDate": "2026-06-25",
       "buckets": [
         {
           "priceMid": 300.2,
           "priceLow": 297.38,
           "priceHigh": 303.02,
           "volume": 48252923,
-          "pct": 1.38
+          "pct": 1.39
         },
         {
           "priceMid": 305.85,
           "priceLow": 303.02,
           "priceHigh": 308.67,
           "volume": 78916052,
-          "pct": 2.26
+          "pct": 2.28
         },
         {
           "priceMid": 311.49,
           "priceLow": 308.67,
           "priceHigh": 314.31,
           "volume": 91676506,
-          "pct": 2.63
+          "pct": 2.64
         },
         {
           "priceMid": 317.14,
           "priceLow": 314.31,
           "priceHigh": 319.96,
           "volume": 88719392,
-          "pct": 2.54
+          "pct": 2.56
         },
         {
           "priceMid": 322.78,
           "priceLow": 319.96,
           "priceHigh": 325.6,
           "volume": 126565666,
-          "pct": 3.63
+          "pct": 3.65
         },
         {
           "priceMid": 328.43,
           "priceLow": 325.6,
           "priceHigh": 331.25,
           "volume": 118604330,
-          "pct": 3.4
+          "pct": 3.42
         },
         {
           "priceMid": 334.07,
           "priceLow": 331.25,
           "priceHigh": 336.89,
           "volume": 108577918,
-          "pct": 3.11
+          "pct": 3.13
         },
         {
           "priceMid": 339.72,
           "priceLow": 336.89,
           "priceHigh": 342.54,
           "volume": 99599049,
-          "pct": 2.85
+          "pct": 2.87
         },
         {
           "priceMid": 345.36,
           "priceLow": 342.54,
           "priceHigh": 348.18,
           "volume": 116775185,
-          "pct": 3.35
+          "pct": 3.37
         },
         {
           "priceMid": 351.01,
           "priceLow": 348.18,
           "priceHigh": 353.83,
           "volume": 203523278,
-          "pct": 5.83
+          "pct": 5.87
         },
         {
           "priceMid": 356.65,
           "priceLow": 353.83,
           "priceHigh": 359.47,
           "volume": 295731389,
-          "pct": 8.47
+          "pct": 8.53
         },
         {
           "priceMid": 362.3,
           "priceLow": 359.47,
           "priceHigh": 365.12,
           "volume": 304743523,
-          "pct": 8.73
+          "pct": 8.79
         },
         {
           "priceMid": 367.94,
           "priceLow": 365.12,
           "priceHigh": 370.76,
           "volume": 288466832,
-          "pct": 8.27
+          "pct": 8.32
         },
         {
           "priceMid": 373.59,
           "priceLow": 370.76,
           "priceHigh": 376.41,
-          "volume": 284431856,
-          "pct": 8.15
+          "volume": 272071383,
+          "pct": 7.85
         },
         {
           "priceMid": 379.23,
           "priceLow": 376.41,
           "priceHigh": 382.05,
-          "volume": 310270099,
-          "pct": 8.89
+          "volume": 281102889,
+          "pct": 8.11
         },
         {
           "priceMid": 384.88,
           "priceLow": 382.05,
           "priceHigh": 387.7,
-          "volume": 235482216,
-          "pct": 6.75
+          "volume": 216749301,
+          "pct": 6.25
         },
         {
           "priceMid": 390.52,
           "priceLow": 387.7,
           "priceHigh": 393.34,
-          "volume": 160551490,
-          "pct": 4.6
+          "volume": 154179048,
+          "pct": 4.45
         },
         {
           "priceMid": 396.17,
           "priceLow": 393.34,
           "priceHigh": 398.99,
-          "volume": 126582394,
-          "pct": 3.63
+          "volume": 137016689,
+          "pct": 3.95
         },
         {
           "priceMid": 401.81,
           "priceLow": 398.99,
           "priceHigh": 404.63,
-          "volume": 119803429,
-          "pct": 3.43
+          "volume": 141666859,
+          "pct": 4.09
         },
         {
           "priceMid": 407.46,
           "priceLow": 404.63,
           "priceHigh": 410.28,
-          "volume": 107675703,
-          "pct": 3.09
+          "volume": 119104838,
+          "pct": 3.44
         },
         {
           "priceMid": 413.1,
           "priceLow": 410.28,
           "priceHigh": 415.92,
           "volume": 67016133,
-          "pct": 1.92
+          "pct": 1.93
         },
         {
           "priceMid": 418.75,
           "priceLow": 415.92,
           "priceHigh": 421.57,
           "volume": 52120627,
-          "pct": 1.49
+          "pct": 1.5
         },
         {
           "priceMid": 424.39,
           "priceLow": 421.57,
           "priceHigh": 427.21,
           "volume": 33461842,
-          "pct": 0.96
+          "pct": 0.97
         },
         {
           "priceMid": 430.04,
@@ -12832,7 +12872,7 @@
       "method": "daily_ohlcv_uniform_bins",
       "windowBars": 250,
       "windowLabel": "250个交易日",
-      "methodNote": "近约250个交易日（2025-10-30～2026-10-28）日线 OHLC+成交量按价格分桶（日内高低区间均匀分摊），近似筹码分布；非交易所逐笔筹码。",
+      "methodNote": "近约250个交易日（2025-11-03～2026-10-30）日线 OHLC+成交量按价格分桶（日内高低区间均匀分摊），近似筹码分布；非交易所逐笔筹码。",
       "disclaimer": "本图为日线成交量价格分布（Volume Profile）近似，非正式「筹码分布」或持仓成本分布，不构成投资建议。",
       "barsUsed": 250,
       "bucketCount": 24,
@@ -12840,39 +12880,39 @@
       "rangeLow": 297.38,
       "rangeHigh": 498.83,
       "pocPrice": 402.3,
-      "pocPct": 9.02,
+      "pocPct": 9.27,
       "valueAreaLow": 364.53,
       "valueAreaHigh": 448.47,
-      "valueAreaPct": 70.4,
+      "valueAreaPct": 70.8,
       "topBands": [
         {
           "priceMid": 402.3,
           "priceLow": 398.11,
           "priceHigh": 406.5,
-          "pct": 9.02,
+          "pct": 9.27,
           "isPoc": true
         },
         {
           "priceMid": 393.91,
           "priceLow": 389.71,
           "priceHigh": 398.11,
-          "pct": 7.88,
+          "pct": 8.03,
           "isPoc": false
         },
         {
           "priceMid": 410.7,
           "priceLow": 406.5,
           "priceHigh": 414.89,
-          "pct": 7.74,
+          "pct": 7.88,
           "isPoc": false
         }
       ],
-      "currentPrice": 397.3,
+      "currentPrice": 399.81,
       "priceVsChips": "inside",
       "priceVsChipsLabel": "现价位于主筹码区内",
-      "totalVolume": 13869504620,
-      "asOf": "2026-10-28",
-      "fromDate": "2025-10-30",
+      "totalVolume": 13778516340,
+      "asOf": "2026-10-30",
+      "fromDate": "2025-11-03",
       "buckets": [
         {
           "priceMid": 301.58,
@@ -12886,7 +12926,7 @@
           "priceLow": 305.77,
           "priceHigh": 314.17,
           "volume": 119506695,
-          "pct": 0.86
+          "pct": 0.87
         },
         {
           "priceMid": 318.36,
@@ -12900,147 +12940,147 @@
           "priceLow": 322.56,
           "priceHigh": 330.95,
           "volume": 169426012,
-          "pct": 1.22
+          "pct": 1.23
         },
         {
           "priceMid": 335.15,
           "priceLow": 330.95,
           "priceHigh": 339.35,
           "volume": 207508720,
-          "pct": 1.5
+          "pct": 1.51
         },
         {
           "priceMid": 343.55,
           "priceLow": 339.35,
           "priceHigh": 347.74,
           "volume": 317394905,
-          "pct": 2.29
+          "pct": 2.3
         },
         {
           "priceMid": 351.94,
           "priceLow": 347.74,
           "priceHigh": 356.14,
           "volume": 516917653,
-          "pct": 3.73
+          "pct": 3.75
         },
         {
           "priceMid": 360.33,
           "priceLow": 356.14,
           "priceHigh": 364.53,
           "volume": 687732975,
-          "pct": 4.96
+          "pct": 4.99
         },
         {
           "priceMid": 368.73,
           "priceLow": 364.53,
           "priceHigh": 372.92,
           "volume": 856664485,
-          "pct": 6.18
+          "pct": 6.22
         },
         {
           "priceMid": 377.12,
           "priceLow": 372.92,
           "priceHigh": 381.32,
           "volume": 842901546,
-          "pct": 6.08
+          "pct": 6.12
         },
         {
           "priceMid": 385.51,
           "priceLow": 381.32,
           "priceHigh": 389.71,
-          "volume": 1040409474,
-          "pct": 7.5
+          "volume": 1054321868,
+          "pct": 7.65
         },
         {
           "priceMid": 393.91,
           "priceLow": 389.71,
           "priceHigh": 398.11,
-          "volume": 1092731951,
-          "pct": 7.88
+          "volume": 1106644344,
+          "pct": 8.03
         },
         {
           "priceMid": 402.3,
           "priceLow": 398.11,
           "priceHigh": 406.5,
-          "volume": 1251611605,
-          "pct": 9.02
+          "volume": 1276953134,
+          "pct": 9.27
         },
         {
           "priceMid": 410.7,
           "priceLow": 406.5,
           "priceHigh": 414.89,
-          "volume": 1074054974,
-          "pct": 7.74
+          "volume": 1085484109,
+          "pct": 7.88
         },
         {
           "priceMid": 419.09,
           "priceLow": 414.89,
           "priceHigh": 423.29,
           "volume": 936547301,
-          "pct": 6.75
+          "pct": 6.8
         },
         {
           "priceMid": 427.48,
           "priceLow": 423.29,
           "priceHigh": 431.68,
           "volume": 933497510,
-          "pct": 6.73
+          "pct": 6.78
         },
         {
           "priceMid": 435.88,
           "priceLow": 431.68,
           "priceHigh": 440.07,
-          "volume": 905877470,
-          "pct": 6.53
+          "volume": 881728156,
+          "pct": 6.4
         },
         {
           "priceMid": 444.27,
           "priceLow": 440.07,
           "priceHigh": 448.47,
-          "volume": 828870260,
-          "pct": 5.98
+          "volume": 777009017,
+          "pct": 5.64
         },
         {
           "priceMid": 452.66,
           "priceLow": 448.47,
           "priceHigh": 456.86,
-          "volume": 655044101,
-          "pct": 4.72
+          "volume": 603182858,
+          "pct": 4.38
         },
         {
           "priceMid": 461.06,
           "priceLow": 456.86,
           "priceHigh": 465.25,
-          "volume": 309397502,
-          "pct": 2.23
+          "volume": 281685572,
+          "pct": 2.04
         },
         {
           "priceMid": 469.45,
           "priceLow": 465.25,
           "priceHigh": 473.65,
           "volume": 232185998,
-          "pct": 1.67
+          "pct": 1.69
         },
         {
           "priceMid": 477.85,
           "priceLow": 473.65,
           "priceHigh": 482.04,
           "volume": 233323921,
-          "pct": 1.68
+          "pct": 1.69
         },
         {
           "priceMid": 486.24,
           "priceLow": 482.04,
           "priceHigh": 490.44,
           "volume": 227473861,
-          "pct": 1.64
+          "pct": 1.65
         },
         {
           "priceMid": 494.63,
           "priceLow": 490.44,
           "priceHigh": 498.83,
           "volume": 198083531,
-          "pct": 1.43
+          "pct": 1.44
         }
       ]
     }
